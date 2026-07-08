@@ -20,7 +20,7 @@ We recommend using a GPU for efficient training and prediction. To run EGMP-PPIS
 
 ## 3 Datasets
     The folder `./Dataset/` contains datasets used in our experiments, including Test_315-28.pkl, Test_60.pkl, Train_335.pkl, UBtest_31-6.pkl and bound_unbound_mapping31-6.txt. The remaining datasets are sourced from the original GraphPPIS.
-    All protein PDB files and feature files are available for download at: https://drive.google.com/drive/folders/1KMJjj7DPDJvVE2lF44gmEdGMpRj5sBQM
+    All protein PDB files and feature files are available for download at: [PDB files and Feature files](https://drive.google.com/drive/folders/1KMJjj7DPDJvVE2lF44gmEdGMpRj5sBQM?usp=drive_link)
 
 ## 4 Features
     Extracted features are placed in the `./Feature/` directory. Detailed descriptions are as follows:
