@@ -1,0 +1,4391 @@
+Random seed: 2020
+The base Model type: EGMPPPIS
+Add node features: all
+Map cutoff: 14
+The parameter of normalizing the distance: 15
+Feature dim: 62
+Hidden dim: 256
+Layer: 4
+Dropout: 0.5
+Learning rate: 0.0005
+Training epochs: 50
+
+
+
+========== Fold 1 ==========
+Train on 267 samples, validate on 67 samples
+
+========== Train epoch 1 ==========
+========== Evaluate Train set ==========
+Train loss:  0.4967696449060119
+Train binary acc:  0.8446779265284603
+Train AUC:  0.7189405619712326
+Train AUPRC:  0.33788679670528154
+========== Evaluate Valid set ==========
+Valid loss:  0.4612375161985853
+Valid binary acc:  0.8510573326208107
+Valid precision:  0.55
+Valid recall:  0.022460438999489536
+Valid f1:  0.043158410985777336
+Valid AUC:  0.718173018146693
+Valid AUPRC:  0.30868282386580126
+Valid mcc:  0.0880195447987798
+
+========== Train epoch 2 ==========
+========== Evaluate Train set ==========
+Train loss:  0.448560243019004
+Train binary acc:  0.8584420719652036
+Train AUC:  0.8177051049780737
+Train AUPRC:  0.49715022706708734
+========== Evaluate Valid set ==========
+Valid loss:  0.4081417729160679
+Valid binary acc:  0.8656385983662875
+Valid precision:  0.6073354908306364
+Valid recall:  0.2873915262889229
+Valid f1:  0.3901593901593901
+Valid AUC:  0.8180267063674262
+Valid AUPRC:  0.47974729540446426
+Valid mcc:  0.3542387130075749
+
+========== Train epoch 3 ==========
+========== Evaluate Train set ==========
+Train loss:  0.42485219552722314
+Train binary acc:  0.836393078385961
+Train AUC:  0.7831949180588627
+Train AUPRC:  0.4265764292949125
+========== Evaluate Valid set ==========
+Valid loss:  0.4322167735046415
+Valid binary acc:  0.8480800061073365
+Valid precision:  0.4897689768976898
+Valid recall:  0.3787646758550281
+Valid f1:  0.4271732872769143
+Valid AUC:  0.7953243924143322
+Valid AUPRC:  0.44393173613592524
+Valid mcc:  0.34499242826121684
+
+========== Train epoch 4 ==========
+========== Evaluate Train set ==========
+Train loss:  0.4097461849451065
+Train binary acc:  0.8443390009226308
+Train AUC:  0.8059310672329163
+Train AUPRC:  0.48168744323119006
+========== Evaluate Valid set ==========
+Valid loss:  0.43661427164255684
+Valid binary acc:  0.8375448507519658
+Valid precision:  0.4509576320371445
+Valid recall:  0.39663093415007655
+Valid f1:  0.4220532319391635
+Valid AUC:  0.788336756286641
+Valid AUPRC:  0.4294332283462247
+Valid mcc:  0.3289088204586632
+
+========== Train epoch 5 ==========
+========== Evaluate Train set ==========
+Train loss:  0.4093733693330029
+Train binary acc:  0.8617560112222034
+Train AUC:  0.8334452804868437
+Train AUPRC:  0.5208845970454886
+========== Evaluate Valid set ==========
+Valid loss:  0.3923862309598211
+Valid binary acc:  0.8649515230170242
+Valid precision:  0.6532258064516129
+Valid recall:  0.20673813169984687
+Valid f1:  0.3140752229546336
+Valid AUC:  0.8242664936402719
+Valid AUPRC:  0.4865506226554854
+Valid mcc:  0.3147983439722047
+
+========== Train epoch 6 ==========
+========== Evaluate Train set ==========
+Train loss:  0.393473959817422
+Train binary acc:  0.8641473196633339
+Train AUC:  0.8377753246688505
+Train AUPRC:  0.5329710650272419
+========== Evaluate Valid set ==========
+Valid loss:  0.38272817210475013
+Valid binary acc:  0.8695320253454463
+Valid precision:  0.6278118609406953
+Valid recall:  0.31342521694742215
+Valid f1:  0.41811372148450804
+Valid AUC:  0.8346215001791666
+Valid AUPRC:  0.5139205949158369
+Valid mcc:  0.3809265045029322
+
+========== Train epoch 7 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3850146107068669
+Train binary acc:  0.86685872450997
+Train AUC:  0.8379058701553461
+Train AUPRC:  0.5424974888548152
+========== Evaluate Valid set ==========
+Valid loss:  0.3763172064921749
+Valid binary acc:  0.8722039850370257
+Valid precision:  0.6144578313253012
+Valid recall:  0.3905053598774885
+Valid f1:  0.47752808988764045
+Valid AUC:  0.8450080785363873
+Valid AUPRC:  0.5321560790971184
+Valid mcc:  0.42246839792650087
+
+========== Train epoch 8 ==========
+========== Evaluate Train set ==========
+Train loss:  0.38602031644587215
+Train binary acc:  0.868233256133612
+Train AUC:  0.847879005720656
+Train AUPRC:  0.559743889237525
+========== Evaluate Valid set ==========
+Valid loss:  0.3601073164548447
+Valid binary acc:  0.8740361859683945
+Valid precision:  0.7051792828685259
+Valid recall:  0.27105666156202146
+Valid f1:  0.3915929203539823
+Valid AUC:  0.8587991436659784
+Valid AUPRC:  0.5659312248247558
+Valid mcc:  0.3847646353139245
+
+========== Train epoch 9 ==========
+========== Evaluate Train set ==========
+Train loss:  0.38307937745297893
+Train binary acc:  0.8676118925229246
+Train AUC:  0.8530147262183234
+Train AUPRC:  0.5618571477653476
+========== Evaluate Valid set ==========
+Valid loss:  0.38210118272856103
+Valid binary acc:  0.8699137338728147
+Valid precision:  0.68188302425107
+Valid recall:  0.24400204185809085
+Valid f1:  0.3593984962406015
+Valid AUC:  0.8499999083546639
+Valid AUPRC:  0.5286098755722197
+Valid mcc:  0.3549295482258155
+
+========== Train epoch 10 ==========
+========== Evaluate Train set ==========
+Train loss:  0.38998630581500376
+Train binary acc:  0.8708505149786289
+Train AUC:  0.8562198463490459
+Train AUPRC:  0.569527224324342
+========== Evaluate Valid set ==========
+Valid loss:  0.3512941546626945
+Valid binary acc:  0.87724253759829
+Valid precision:  0.6461282264779351
+Valid recall:  0.3961204696273609
+Valid f1:  0.4911392405063292
+Valid AUC:  0.8612498316016948
+Valid AUPRC:  0.5809409463277329
+Valid mcc:  0.442382102903585
+
+========== Train epoch 11 ==========
+========== Evaluate Train set ==========
+Train loss:  0.382924473157313
+Train binary acc:  0.8681391101319927
+Train AUC:  0.8613842816231697
+Train AUPRC:  0.5760367697838519
+========== Evaluate Valid set ==========
+Valid loss:  0.36815913499736075
+Valid binary acc:  0.8704481258111306
+Valid precision:  0.7066246056782335
+Valid recall:  0.22868810617662072
+Valid f1:  0.34554569996143464
+Valid AUC:  0.8568399496683813
+Valid AUPRC:  0.5500486872994104
+Valid mcc:  0.35227962579079247
+
+========== Train epoch 12 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3823900767479943
+Train binary acc:  0.8674612589203337
+Train AUC:  0.8580488802032443
+Train AUPRC:  0.573516819935154
+========== Evaluate Valid set ==========
+Valid loss:  0.3732305951972506
+Valid binary acc:  0.8699137338728147
+Valid precision:  0.7305605786618445
+Valid recall:  0.2062276671771312
+Valid f1:  0.32165605095541405
+Valid AUC:  0.8571022844432958
+Valid AUPRC:  0.5463254116253319
+Valid mcc:  0.3420343709383912
+
+========== Train epoch 13 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3751994282118837
+Train binary acc:  0.8673106253177427
+Train AUC:  0.8547078092161646
+Train AUPRC:  0.5696701337747075
+========== Evaluate Valid set ==========
+Valid loss:  0.3723105623650907
+Valid binary acc:  0.8663256737155508
+Valid precision:  0.572829131652661
+Valid recall:  0.4175599795814191
+Valid f1:  0.4830233244759374
+Valid AUC:  0.8481576767174106
+Valid AUPRC:  0.5296778582669222
+Valid mcc:  0.41515642734718544
+
+========== Train epoch 14 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3852388695552108
+Train binary acc:  0.8548268655030221
+Train AUC:  0.8198763570547312
+Train AUPRC:  0.5335143392658457
+========== Evaluate Valid set ==========
+Valid loss:  0.4413451976073322
+Valid binary acc:  0.8620505382090236
+Valid precision:  0.88
+Valid recall:  0.08984175599795814
+Valid f1:  0.16303844372394627
+Valid AUC:  0.8302499259963911
+Valid AUPRC:  0.535463617079758
+Valid mcc:  0.2550373437407644
+
+========== Train epoch 15 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3761999027224516
+Train binary acc:  0.8671976501157996
+Train AUC:  0.8650020632474228
+Train AUPRC:  0.5860368701712662
+========== Evaluate Valid set ==========
+Valid loss:  0.3764432690926452
+Valid binary acc:  0.8724330101534469
+Valid precision:  0.7975206611570248
+Valid recall:  0.1970393057682491
+Valid f1:  0.31600491199345065
+Valid AUC:  0.8640146110159527
+Valid AUPRC:  0.5758571595884164
+Valid mcc:  0.35588562391653117
+
+========== Train epoch 16 ==========
+========== Evaluate Train set ==========
+Train loss:  0.37989858805798415
+Train binary acc:  0.868365060535879
+Train AUC:  0.8596668871370835
+Train AUPRC:  0.5915608968375885
+========== Evaluate Valid set ==========
+Valid loss:  0.41986537936018475
+Valid binary acc:  0.8686159248797618
+Valid precision:  0.7458677685950413
+Valid recall:  0.18427769270035732
+Valid f1:  0.2955382726156365
+Valid AUC:  0.8557815605917722
+Valid AUPRC:  0.5555881567889815
+Valid mcc:  0.32751610121454744
+
+========== Train epoch 17 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3722655288735579
+Train binary acc:  0.8763862998738443
+Train AUC:  0.8706163651318027
+Train AUPRC:  0.6050405099534694
+========== Evaluate Valid set ==========
+Valid loss:  0.35255459796136884
+Valid binary acc:  0.8777005878311321
+Valid precision:  0.6981132075471698
+Valid recall:  0.3210821847881572
+Valid f1:  0.43986013986013983
+Valid AUC:  0.8624971246275762
+Valid AUPRC:  0.5680040822680656
+Valid mcc:  0.41804245833861503
+
+========== Train epoch 18 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3653056701080183
+Train binary acc:  0.8680826225310211
+Train AUC:  0.8494621586268086
+Train AUPRC:  0.583850978100328
+========== Evaluate Valid set ==========
+Valid loss:  0.4440475661140769
+Valid binary acc:  0.8725093518589205
+Valid precision:  0.8276643990929705
+Valid recall:  0.18631955079122
+Valid f1:  0.30416666666666664
+Valid AUC:  0.8603765431929052
+Valid AUPRC:  0.5794449348224663
+Valid mcc:  0.3549080629214347
+
+========== Train epoch 19 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3701056239198656
+Train binary acc:  0.873279481820407
+Train AUC:  0.8669069484112141
+Train AUPRC:  0.6008687312523291
+========== Evaluate Valid set ==========
+Valid loss:  0.34376596281332755
+Valid binary acc:  0.8765554622490267
+Valid precision:  0.616643929058663
+Valid recall:  0.4614599285349668
+Valid f1:  0.5278832116788321
+Valid AUC:  0.874702381770643
+Valid AUPRC:  0.5952035599537439
+Valid mcc:  0.4649438530023847
+
+========== Train epoch 20 ==========
+========== Evaluate Train set ==========
+Train loss:  0.37226939865489134
+Train binary acc:  0.8805852115460656
+Train AUC:  0.8779908467860549
+Train AUPRC:  0.6235075673478689
+========== Evaluate Valid set ==========
+Valid loss:  0.3340322726698064
+Valid binary acc:  0.8827391403923963
+Valid precision:  0.6707021791767555
+Valid recall:  0.4241960183767228
+Valid f1:  0.5196998123827392
+Valid AUC:  0.8764210754946785
+Valid AUPRC:  0.6088378742673283
+Valid mcc:  0.47231676505111064
+
+========== Train epoch 21 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3655758104688219
+Train binary acc:  0.8753883522566797
+Train AUC:  0.8763543060118356
+Train AUPRC:  0.6164486196088983
+========== Evaluate Valid set ==========
+Valid loss:  0.34838414470206447
+Valid binary acc:  0.8801435224062906
+Valid precision:  0.7624831309041835
+Valid recall:  0.2884124553343543
+Valid f1:  0.4185185185185185
+Valid AUC:  0.8765347844455869
+Valid AUPRC:  0.6088334313858971
+Valid mcc:  0.42084679527462737
+
+========== Train epoch 22 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3682575901684243
+Train binary acc:  0.880811161949952
+Train AUC:  0.8597521294595343
+Train AUPRC:  0.6067516878573427
+========== Evaluate Valid set ==========
+Valid loss:  0.36000388115644455
+Valid binary acc:  0.8837315825635544
+Valid precision:  0.713307240704501
+Valid recall:  0.3721286370597244
+Valid f1:  0.48909761824890974
+Valid AUC:  0.8596590289443466
+Valid AUPRC:  0.5874206642540145
+Valid mcc:  0.459847422243955
+
+========== Train epoch 23 ==========
+========== Evaluate Train set ==========
+Train loss:  0.35752946381153683
+Train binary acc:  0.8760850326686626
+Train AUC:  0.8656373736735308
+Train AUPRC:  0.5971034447244935
+========== Evaluate Valid set ==========
+Valid loss:  0.34806435922188544
+Valid binary acc:  0.8748759447286052
+Valid precision:  0.6441441441441441
+Valid recall:  0.36498213374170496
+Valid f1:  0.4659498207885304
+Valid AUC:  0.874018959587156
+Valid AUPRC:  0.5652991988098629
+Valid mcc:  0.4219823843874337
+
+========== Train epoch 24 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3635806848717093
+Train binary acc:  0.880811161949952
+Train AUC:  0.8785710093631414
+Train AUPRC:  0.62166581077127
+========== Evaluate Valid set ==========
+Valid loss:  0.3432662375827334
+Valid binary acc:  0.8804488892281853
+Valid precision:  0.6578313253012048
+Valid recall:  0.41807044410413474
+Valid f1:  0.5112359550561798
+Valid AUC:  0.8776070807019666
+Valid AUPRC:  0.5914073997566378
+Valid mcc:  0.4618828007975574
+
+========== Train epoch 25 ==========
+========== Evaluate Train set ==========
+Train loss:  0.35126508850506627
+Train binary acc:  0.8805287239450941
+Train AUC:  0.8792073699067713
+Train AUPRC:  0.6261759534052525
+========== Evaluate Valid set ==========
+Valid loss:  0.371951727724787
+Valid binary acc:  0.881823039926712
+Valid precision:  0.7207303974221267
+Valid recall:  0.34252169474221544
+Valid f1:  0.4643598615916955
+Valid AUC:  0.8779830327824532
+Valid AUPRC:  0.5969514861860984
+Valid mcc:  0.44301076242258575
+
+========== Train epoch 26 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3491912622855844
+Train binary acc:  0.879455459526634
+Train AUC:  0.8819126487746994
+Train AUPRC:  0.6242266149692112
+========== Evaluate Valid set ==========
+Valid loss:  0.34308920177950786
+Valid binary acc:  0.8842659745018704
+Valid precision:  0.7049028677150786
+Valid recall:  0.3889739663093415
+Valid f1:  0.5013157894736843
+Valid AUC:  0.8755465040511821
+Valid AUPRC:  0.6091465766119712
+Valid mcc:  0.4670264043154236
+
+========== Train epoch 27 ==========
+========== Evaluate Train set ==========
+Train loss:  0.35331949259569584
+Train binary acc:  0.882863544785253
+Train AUC:  0.8878056240953311
+Train AUPRC:  0.6413677614704977
+========== Evaluate Valid set ==========
+Valid loss:  0.3243095941507994
+Valid binary acc:  0.8887701351248187
+Valid precision:  0.7620041753653445
+Valid recall:  0.37263910158244
+Valid f1:  0.5005142269454919
+Valid AUC:  0.8878772465708608
+Valid AUPRC:  0.6360207163896745
+Valid mcc:  0.4823974926137244
+
+========== Train epoch 28 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34859502502483375
+Train binary acc:  0.8799261895347305
+Train AUC:  0.869708288347295
+Train AUPRC:  0.6123560309334176
+========== Evaluate Valid set ==========
+Valid loss:  0.364301644154449
+Valid binary acc:  0.8799908389953431
+Valid precision:  0.7051961823966065
+Valid recall:  0.3394589076059214
+Valid f1:  0.4583046175051688
+Valid AUC:  0.8674309887706969
+Valid AUPRC:  0.5859066601484453
+Valid mcc:  0.43394481741869045
+
+========== Train epoch 29 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3524096127362287
+Train binary acc:  0.8837673464007983
+Train AUC:  0.879419990016865
+Train AUPRC:  0.6348824274603573
+========== Evaluate Valid set ==========
+Valid loss:  0.33559053713706
+Valid binary acc:  0.88487670814566
+Valid precision:  0.6932305055698372
+Valid recall:  0.41296579887697804
+Valid f1:  0.5175943698016634
+Valid AUC:  0.8773346649400686
+Valid AUPRC:  0.6033763888168018
+Valid mcc:  0.47675820796201857
+
+========== Train epoch 30 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3454562755727143
+Train binary acc:  0.8835413959969121
+Train AUC:  0.8918200592589722
+Train AUPRC:  0.6494247891148717
+========== Evaluate Valid set ==========
+Valid loss:  0.3373066260298686
+Valid binary acc:  0.8867089090770288
+Valid precision:  0.7430910951893551
+Valid recall:  0.37059724349157736
+Valid f1:  0.4945504087193461
+Valid AUC:  0.8864895528898982
+Valid AUPRC:  0.6258073288863967
+Valid mcc:  0.47248364053922853
+
+========== Train epoch 31 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34433548462189983
+Train binary acc:  0.8867047016513209
+Train AUC:  0.8926781266983683
+Train AUPRC:  0.6611227300347144
+========== Evaluate Valid set ==========
+Valid loss:  0.3211263799622877
+Valid binary acc:  0.8867089090770288
+Valid precision:  0.7268385864374403
+Valid recall:  0.3884635017866258
+Valid f1:  0.5063206919494344
+Valid AUC:  0.8859934766849682
+Valid AUPRC:  0.6265270025987576
+Valid mcc:  0.4771034100182517
+
+========== Train epoch 32 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3442319344157137
+Train binary acc:  0.8797378975314918
+Train AUC:  0.8894272257135465
+Train AUPRC:  0.6485574656355256
+========== Evaluate Valid set ==========
+Valid loss:  0.3266615541790848
+Valid binary acc:  0.8792274219406061
+Valid precision:  0.6053661263275573
+Valid recall:  0.552833078101072
+Valid f1:  0.5779082177161152
+Valid AUC:  0.8832938800160929
+Valid AUPRC:  0.6271462086265118
+Valid mcc:  0.508321690878142
+
+========== Train epoch 33 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3391172755300329
+Train binary acc:  0.8863657760454914
+Train AUC:  0.8934900663579268
+Train AUPRC:  0.6623315805404868
+========== Evaluate Valid set ==========
+Valid loss:  0.331552684084693
+Valid binary acc:  0.8841896327963966
+Valid precision:  0.7311715481171548
+Valid recall:  0.3568147013782542
+Valid f1:  0.4795883361921097
+Valid AUC:  0.8825229594478552
+Valid AUPRC:  0.6183258716427781
+Valid mcc:  0.45759600671123984
+
+========== Train epoch 34 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3453514710738418
+Train binary acc:  0.8852360240260596
+Train AUC:  0.8934981230410237
+Train AUPRC:  0.6575271410609278
+========== Evaluate Valid set ==========
+Valid loss:  0.33044802686616553
+Valid binary acc:  0.8852584166730285
+Valid precision:  0.6743119266055045
+Valid recall:  0.450229709035222
+Valid f1:  0.5399449035812672
+Valid AUC:  0.880274234921822
+Valid AUPRC:  0.6190453427482517
+Valid mcc:  0.49007932826286116
+
+========== Train epoch 35 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34262539429611033
+Train binary acc:  0.8869306520552073
+Train AUC:  0.8843197289589834
+Train AUPRC:  0.651154593101367
+========== Evaluate Valid set ==========
+Valid loss:  0.32651913811021777
+Valid binary acc:  0.8847240247347126
+Valid precision:  0.6489714664897147
+Valid recall:  0.4992343032159265
+Valid f1:  0.5643392960184651
+Valid AUC:  0.88348303599004
+Valid AUPRC:  0.6368837342682745
+Valid mcc:  0.5049170273665488
+
+========== Train epoch 36 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34014657452311853
+Train binary acc:  0.8853113408273551
+Train AUC:  0.8933216659361122
+Train AUPRC:  0.6656467584992332
+========== Evaluate Valid set ==========
+Valid loss:  0.35204112841122187
+Valid binary acc:  0.8770135124818689
+Valid precision:  0.607540173053152
+Valid recall:  0.5017866258295048
+Valid f1:  0.549622588761532
+Valid AUC:  0.8803595796411718
+Valid AUPRC:  0.6057168024679935
+Valid mcc:  0.48209281999468373
+
+========== Train epoch 37 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3401210193107191
+Train binary acc:  0.8698149089608165
+Train AUC:  0.8928337268947859
+Train AUPRC:  0.6665095561974973
+========== Evaluate Valid set ==========
+Valid loss:  0.3553765594069637
+Valid binary acc:  0.8708298343384991
+Valid precision:  0.8598382749326146
+Valid recall:  0.16283818274629913
+Valid f1:  0.27381974248927043
+Valid AUC:  0.8863646173853036
+Valid AUPRC:  0.6324927026980877
+Valid mcc:  0.3400304156496119
+
+========== Train epoch 38 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34923608966646125
+Train binary acc:  0.8768946882825887
+Train AUC:  0.8579598857455056
+Train AUPRC:  0.5985480945615866
+========== Evaluate Valid set ==========
+Valid loss:  0.4286298332596893
+Valid binary acc:  0.8773188793037636
+Valid precision:  0.7285714285714285
+Valid recall:  0.28637059724349156
+Valid f1:  0.4111396115793331
+Valid AUC:  0.854131829983238
+Valid AUPRC:  0.5755500309396584
+Valid mcc:  0.4057437610453378
+
+========== Train epoch 39 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34892661598849384
+Train binary acc:  0.8894725940989286
+Train AUC:  0.8956545613886748
+Train AUPRC:  0.6689803472000222
+========== Evaluate Valid set ==========
+Valid loss:  0.3211725132901277
+Valid binary acc:  0.8883120848919764
+Valid precision:  0.6977671451355661
+Valid recall:  0.44665645737621235
+Valid f1:  0.5446623093681917
+Valid AUC:  0.8867975270422475
+Valid AUPRC:  0.6243588630422952
+Valid mcc:  0.5001606075213731
+
+========== Train epoch 40 ==========
+========== Evaluate Train set ==========
+Train loss:  0.33531202289383955
+Train binary acc:  0.8858950460373948
+Train AUC:  0.890900212351643
+Train AUPRC:  0.6630014485262843
+========== Evaluate Valid set ==========
+Valid loss:  0.3405616271184452
+Valid binary acc:  0.8889991602412398
+Valid precision:  0.7517447657028913
+Valid recall:  0.38489025012761613
+Valid f1:  0.5091154625253207
+Valid AUC:  0.8804726699860608
+Valid AUPRC:  0.633202409871846
+Valid mcc:  0.48623075987985936
+
+========== Train epoch 41 ==========
+========== Evaluate Train set ==========
+Train loss:  0.338583289321219
+Train binary acc:  0.8904140541151218
+Train AUC:  0.8988317486601808
+Train AUPRC:  0.6785780041873549
+========== Evaluate Valid set ==========
+Valid loss:  0.31821113802603823
+Valid binary acc:  0.8906023360561875
+Valid precision:  0.70546875
+Valid recall:  0.4609494640122512
+Valid f1:  0.5575794998456314
+Valid AUC:  0.8907646245336398
+Valid AUPRC:  0.6437653088545646
+Valid mcc:  0.5129813928438971
+
+========== Train epoch 42 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34052033141980903
+Train binary acc:  0.873166506618464
+Train AUC:  0.8900281811512983
+Train AUPRC:  0.6503290655357099
+========== Evaluate Valid set ==========
+Valid loss:  0.34338107126862255
+Valid binary acc:  0.8786166882968166
+Valid precision:  0.8385321100917431
+Valid recall:  0.23328228688106176
+Valid f1:  0.3650159744408945
+Valid AUC:  0.8843925013953002
+Valid AUPRC:  0.6309685471444112
+Valid mcc:  0.4025235731224058
+
+========== Train epoch 43 ==========
+========== Evaluate Train set ==========
+Train loss:  0.33605023688368135
+Train binary acc:  0.8758214238641285
+Train AUC:  0.891047793226197
+Train AUPRC:  0.6568154209390177
+========== Evaluate Valid set ==========
+Valid loss:  0.35747439592187086
+Valid binary acc:  0.8790747385296588
+Valid precision:  0.8227194492254734
+Valid recall:  0.24400204185809085
+Valid f1:  0.37637795275590546
+Valid AUC:  0.8817483043321668
+Valid AUPRC:  0.6280208319767081
+Valid mcc:  0.4066503262765585
+
+========== Train epoch 44 ==========
+========== Evaluate Train set ==========
+Train loss:  0.33561666563767173
+Train binary acc:  0.8841062720066278
+Train AUC:  0.8969265325826088
+Train AUPRC:  0.6773993044189806
+========== Evaluate Valid set ==========
+Valid loss:  0.3561060254031153
+Valid binary acc:  0.8770898541873425
+Valid precision:  0.5953031130529766
+Valid recall:  0.5564063297600816
+Valid f1:  0.5751978891820582
+Valid AUC:  0.8816026111589194
+Valid AUPRC:  0.629516527928023
+Valid mcc:  0.5038371109289668
+
+========== Train epoch 45 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3447284046909336
+Train binary acc:  0.8822421811745655
+Train AUC:  0.895031593512856
+Train AUPRC:  0.6702828691432594
+========== Evaluate Valid set ==========
+Valid loss:  0.33720017691601567
+Valid binary acc:  0.8760974120161844
+Valid precision:  0.5956719817767654
+Valid recall:  0.5339458907605922
+Valid f1:  0.5631224764468372
+Valid AUC:  0.8789783469564126
+Valid AUPRC:  0.6137111795270147
+Valid mcc:  0.49218336409667923
+
+========== Train epoch 46 ==========
+========== Evaluate Train set ==========
+Train loss:  0.33603073469596856
+Train binary acc:  0.877666685495867
+Train AUC:  0.899273179637688
+Train AUPRC:  0.6786371117940247
+========== Evaluate Valid set ==========
+Valid loss:  0.3481576600626333
+Valid binary acc:  0.8786166882968166
+Valid precision:  0.8231173380035026
+Valid recall:  0.23991832567636548
+Valid f1:  0.37154150197628455
+Valid AUC:  0.8876749853138348
+Valid AUPRC:  0.6380696435913149
+Valid mcc:  0.4032128249470238
+
+========== Train epoch 47 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3343718880124753
+Train binary acc:  0.8840121260050086
+Train AUC:  0.8924005794364348
+Train AUPRC:  0.6629084655568751
+========== Evaluate Valid set ==========
+Valid loss:  0.35419240827435877
+Valid binary acc:  0.8757920451942897
+Valid precision:  0.5996398559423769
+Valid recall:  0.5099540581929556
+Valid f1:  0.5511724137931034
+Valid AUC:  0.8764989052964588
+Valid AUPRC:  0.5940185965859166
+Valid mcc:  0.48176103236370554
+
+========== Train epoch 48 ==========
+========== Evaluate Train set ==========
+Train loss:  0.33959029104267613
+Train binary acc:  0.8850100736221733
+Train AUC:  0.900512403710628
+Train AUPRC:  0.6830021830716231
+========== Evaluate Valid set ==========
+Valid loss:  0.32700460304075213
+Valid binary acc:  0.8851057332620811
+Valid precision:  0.7880710659898477
+Valid recall:  0.3169984686064318
+Valid f1:  0.4521295959228248
+Valid AUC:  0.8871354233968711
+Valid AUPRC:  0.6423127807225858
+Valid mcc:  0.4529681734515412
+
+========== Train epoch 49 ==========
+========== Evaluate Train set ==========
+Train loss:  0.33560468605283494
+Train binary acc:  0.8873072360616845
+Train AUC:  0.8950246750130451
+Train AUPRC:  0.6598590602661623
+========== Evaluate Valid set ==========
+Valid loss:  0.3418170408304058
+Valid binary acc:  0.8812123062829224
+Valid precision:  0.6732588134135855
+Valid recall:  0.3996937212863706
+Valid f1:  0.5016015374759768
+Valid AUC:  0.8726015728172601
+Valid AUPRC:  0.5974338792165093
+Valid mcc:  0.4583801931749945
+
+========== Train epoch 50 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3433562356992607
+Train binary acc:  0.8826187651810428
+Train AUC:  0.8909187168367682
+Train AUPRC:  0.6626850929852924
+========== Evaluate Valid set ==========
+Valid loss:  0.4034861305089139
+Valid binary acc:  0.8814413313993434
+Valid precision:  0.7750677506775068
+Valid recall:  0.29198570699336396
+Valid f1:  0.42417500926955876
+Valid AUC:  0.8749213453901937
+Valid AUPRC:  0.6106874604675674
+Valid mcc:  0.4285652795516802
+
+
+========== Fold 2 ==========
+Train on 267 samples, validate on 67 samples
+
+========== Train epoch 1 ==========
+========== Evaluate Train set ==========
+Train loss:  0.5007450087240126
+Train binary acc:  0.8426866405644139
+Train AUC:  0.7346754535498761
+Train AUPRC:  0.3460416659851737
+========== Evaluate Valid set ==========
+Valid loss:  0.45291545898167057
+Valid binary acc:  0.8399430242147088
+Valid precision:  0.49023090586145646
+Valid recall:  0.12994350282485875
+Valid f1:  0.20543356903609974
+Valid AUC:  0.7243204008621088
+Valid AUPRC:  0.33461229917778057
+Valid mcc:  0.18990187525593952
+
+========== Train epoch 2 ==========
+========== Evaluate Train set ==========
+Train loss:  0.44640119200788636
+Train binary acc:  0.8524844426790746
+Train AUC:  0.7723378876046496
+Train AUPRC:  0.406528713054799
+========== Evaluate Valid set ==========
+Valid loss:  0.41926891501270125
+Valid binary acc:  0.8476647424844441
+Valid precision:  0.6393939393939394
+Valid recall:  0.09934086629001883
+Valid f1:  0.17196414017929912
+Valid AUC:  0.7667165813205848
+Valid AUPRC:  0.3990540513169387
+Valid mcc:  0.20901084815631563
+
+========== Train epoch 3 ==========
+========== Evaluate Train set ==========
+Train loss:  0.4289282609460952
+Train binary acc:  0.8541111048062191
+Train AUC:  0.808931432616643
+Train AUPRC:  0.4901426479942889
+========== Evaluate Valid set ==========
+Valid loss:  0.44387600670999555
+Valid binary acc:  0.8472899017917385
+Valid precision:  0.7185929648241206
+Valid recall:  0.06732580037664783
+Valid f1:  0.12311665949203617
+Valid AUC:  0.7990349343804914
+Valid AUPRC:  0.463387408264475
+Valid mcc:  0.18813393331730147
+
+========== Train epoch 4 ==========
+========== Evaluate Train set ==========
+Train loss:  0.4138830510083209
+Train binary acc:  0.863265807940381
+Train AUC:  0.831994740481218
+Train AUPRC:  0.515817099521261
+========== Evaluate Valid set ==========
+Valid loss:  0.39240074713728323
+Valid binary acc:  0.8595846765124822
+Valid precision:  0.6214908034849952
+Valid recall:  0.3022598870056497
+Valid f1:  0.40671523598352866
+Valid AUC:  0.8229261489815983
+Valid AUPRC:  0.49585874046061024
+Valid mcc:  0.3660352973275394
+
+========== Train epoch 5 ==========
+========== Evaluate Train set ==========
+Train loss:  0.40048594836996737
+Train binary acc:  0.8565132686451418
+Train AUC:  0.8190049830596521
+Train AUPRC:  0.4985315699601436
+========== Evaluate Valid set ==========
+Valid loss:  0.46836066023627326
+Valid binary acc:  0.8516380538271234
+Valid precision:  0.7865612648221344
+Valid recall:  0.09369114877589454
+Valid f1:  0.16743794699200676
+Valid AUC:  0.8023806015450453
+Valid AUPRC:  0.48891326895222376
+Valid mcc:  0.23839574624556
+
+========== Train epoch 6 ==========
+========== Evaluate Train set ==========
+Train loss:  0.40755324662847914
+Train binary acc:  0.8517845996708846
+Train AUC:  0.847206616147122
+Train AUPRC:  0.5492200115939609
+========== Evaluate Valid set ==========
+Valid loss:  0.3948626093455215
+Valid binary acc:  0.8453407301896694
+Valid precision:  0.7520661157024794
+Valid recall:  0.0428436911487759
+Valid f1:  0.08106904231625837
+Valid AUC:  0.83587885474206
+Valid AUPRC:  0.5282844132816599
+Valid mcc:  0.15502050156837074
+
+========== Train epoch 7 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3842811936352137
+Train binary acc:  0.8680512209423291
+Train AUC:  0.8327006269391937
+Train AUPRC:  0.5348537944549712
+========== Evaluate Valid set ==========
+Valid loss:  0.3815918518091316
+Valid binary acc:  0.8629582427468326
+Valid precision:  0.6681818181818182
+Valid recall:  0.2768361581920904
+Valid f1:  0.39147802929427433
+Valid AUC:  0.8173712231315168
+Valid AUPRC:  0.5114040886458501
+Valid mcc:  0.3696756164033785
+
+========== Train epoch 8 ==========
+========== Evaluate Train set ==========
+Train loss:  0.38594106375501397
+Train binary acc:  0.8686754052469311
+Train AUC:  0.842975112264756
+Train AUPRC:  0.5443010768783667
+========== Evaluate Valid set ==========
+Valid loss:  0.38723616613380946
+Valid binary acc:  0.8641577329634905
+Valid precision:  0.6621621621621622
+Valid recall:  0.2999058380414313
+Valid f1:  0.4128321451717434
+Valid AUC:  0.8300043743540271
+Valid AUPRC:  0.5219795907342251
+Valid mcc:  0.3832071630590793
+
+========== Train epoch 9 ==========
+========== Evaluate Train set ==========
+Train loss:  0.39294130888101314
+Train binary acc:  0.8696778830694736
+Train AUC:  0.8470700990450336
+Train AUPRC:  0.5532824110874168
+========== Evaluate Valid set ==========
+Valid loss:  0.3845698717814773
+Valid binary acc:  0.8661818727041007
+Valid precision:  0.7170294494238156
+Valid recall:  0.263653483992467
+Valid f1:  0.38554216867469876
+Valid AUC:  0.833887327219313
+Valid AUPRC:  0.5379977940102408
+Valid mcc:  0.38017882581455803
+
+========== Train epoch 10 ==========
+========== Evaluate Train set ==========
+Train loss:  0.38475286963392286
+Train binary acc:  0.8703966407535607
+Train AUC:  0.8506798548411777
+Train AUPRC:  0.5576523975108097
+========== Evaluate Valid set ==========
+Valid loss:  0.3819567038496928
+Valid binary acc:  0.864457605517655
+Valid precision:  0.6975
+Valid recall:  0.2627118644067797
+Valid f1:  0.3816689466484268
+Valid AUC:  0.8373247004910863
+Valid AUPRC:  0.5376919477182259
+Valid mcc:  0.37158503765800077
+
+========== Train epoch 11 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3811954767739728
+Train binary acc:  0.8695643950140914
+Train AUC:  0.8570152638576394
+Train AUPRC:  0.5607393697388598
+========== Evaluate Valid set ==========
+Valid loss:  0.36271833039041773
+Valid binary acc:  0.8629582427468326
+Valid precision:  0.6737089201877934
+Valid recall:  0.2702448210922787
+Valid f1:  0.385752688172043
+Valid AUC:  0.8458491494358259
+Valid AUPRC:  0.543439845474049
+Valid mcc:  0.3672846179447975
+
+========== Train epoch 12 ==========
+========== Evaluate Train set ==========
+Train loss:  0.37857233233442916
+Train binary acc:  0.8661975827044204
+Train AUC:  0.8580732427668814
+Train AUPRC:  0.5707611959860739
+========== Evaluate Valid set ==========
+Valid loss:  0.397231979156608
+Valid binary acc:  0.8649074143489017
+Valid precision:  0.5959475566150179
+Valid recall:  0.4708097928436911
+Valid f1:  0.5260389268805891
+Valid AUC:  0.8555213415581266
+Valid AUPRC:  0.5538081613005936
+Valid mcc:  0.4527649465956334
+
+========== Train epoch 13 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3857072340359402
+Train binary acc:  0.8693752482551211
+Train AUC:  0.858173162792685
+Train AUPRC:  0.5835117462258048
+========== Evaluate Valid set ==========
+Valid loss:  0.41504554205866
+Valid binary acc:  0.8640077966864083
+Valid precision:  0.764505119453925
+Valid recall:  0.21092278719397364
+Valid f1:  0.33062730627306275
+Valid AUC:  0.8457839959094332
+Valid AUPRC:  0.5590114810086625
+Valid mcc:  0.354601165346542
+
+========== Train epoch 14 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3728011863564284
+Train binary acc:  0.8663678147874936
+Train AUC:  0.8595085129636875
+Train AUPRC:  0.5903428941154034
+========== Evaluate Valid set ==========
+Valid loss:  0.38285862843492136
+Valid binary acc:  0.8626583701926681
+Valid precision:  0.7931726907630522
+Valid recall:  0.185969868173258
+Valid f1:  0.30129672006102215
+Valid AUC:  0.8440856172750881
+Valid AUPRC:  0.5651193563903125
+Valid mcc:  0.341200792327062
+
+========== Train epoch 15 ==========
+========== Evaluate Train set ==========
+Train loss:  0.37360309449474466
+Train binary acc:  0.8736877943596436
+Train AUC:  0.8603757949549775
+Train AUPRC:  0.5916537824305006
+========== Evaluate Valid set ==========
+Valid loss:  0.3805035214815567
+Valid binary acc:  0.8695554389384511
+Valid precision:  0.6263157894736842
+Valid recall:  0.448210922787194
+Valid f1:  0.5225027442371021
+Valid AUC:  0.8512951362388783
+Valid AUPRC:  0.5657463776076814
+Valid mcc:  0.4577963193763496
+
+========== Train epoch 16 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36565481034222613
+Train binary acc:  0.8675026953413153
+Train AUC:  0.8643558381201668
+Train AUPRC:  0.5869179623036767
+========== Evaluate Valid set ==========
+Valid loss:  0.36302214771953983
+Valid binary acc:  0.8652822550416073
+Valid precision:  0.6019962570180911
+Valid recall:  0.454331450094162
+Valid f1:  0.5178427689830962
+Valid AUC:  0.8523153430677403
+Valid AUPRC:  0.5500532882719052
+Valid mcc:  0.44722422743147505
+
+========== Train epoch 17 ==========
+========== Evaluate Train set ==========
+Train loss:  0.363960406111644
+Train binary acc:  0.8736121356560556
+Train AUC:  0.8568090688782117
+Train AUPRC:  0.5827948929493844
+========== Evaluate Valid set ==========
+Valid loss:  0.3596369532951668
+Valid binary acc:  0.8692555663842867
+Valid precision:  0.7144469525959368
+Valid recall:  0.2980225988700565
+Valid f1:  0.42059800664451824
+Valid AUC:  0.8450269220080384
+Valid AUPRC:  0.556195572410059
+Valid mcc:  0.4047502659108771
+
+========== Train epoch 18 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3741904172334778
+Train binary acc:  0.8694698216346063
+Train AUC:  0.8645457469779857
+Train AUPRC:  0.5824230249389999
+========== Evaluate Valid set ==========
+Valid loss:  0.35761502696507014
+Valid binary acc:  0.8656570957343129
+Valid precision:  0.7331460674157303
+Valid recall:  0.2457627118644068
+Valid f1:  0.36812411847672777
+Valid AUC:  0.8597700693431668
+Valid AUPRC:  0.5601717220369548
+Valid mcc:  0.37246280286837913
+
+========== Train epoch 19 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3654206627596184
+Train binary acc:  0.8789271595831205
+Train AUC:  0.8650338875128529
+Train AUPRC:  0.6065229039133091
+========== Evaluate Valid set ==========
+Valid loss:  0.36455327961871875
+Valid binary acc:  0.8733788140040483
+Valid precision:  0.6646479939439819
+Valid recall:  0.4133709981167608
+Valid f1:  0.5097242380261249
+Valid AUC:  0.8580437317857693
+Valid AUPRC:  0.568394911572583
+Valid mcc:  0.45796299519386885
+
+========== Train epoch 20 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3652016639653663
+Train binary acc:  0.8695454803381945
+Train AUC:  0.8644848318384932
+Train AUPRC:  0.5936127693811662
+========== Evaluate Valid set ==========
+Valid loss:  0.43655483424663544
+Valid binary acc:  0.8623584976385036
+Valid precision:  0.7307692307692307
+Valid recall:  0.21468926553672316
+Valid f1:  0.3318777292576419
+Valid AUC:  0.8444150791791663
+Valid AUPRC:  0.5436230304458634
+Valid mcc:  0.34603877688722784
+
+========== Train epoch 21 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3696048829830095
+Train binary acc:  0.8599179103066069
+Train AUC:  0.8668289548803234
+Train AUPRC:  0.604195059652487
+========== Evaluate Valid set ==========
+Valid loss:  0.3827878990724905
+Valid binary acc:  0.8518629582427468
+Valid precision:  0.7642857142857142
+Valid recall:  0.1007532956685499
+Valid f1:  0.17803660565723792
+Valid AUC:  0.8605916880556626
+Valid AUPRC:  0.5708859682026516
+Valid mcc:  0.24213865697026787
+
+========== Train epoch 22 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36850353846612494
+Train binary acc:  0.8707560195956042
+Train AUC:  0.8658252021434232
+Train AUPRC:  0.6064710161273472
+========== Evaluate Valid set ==========
+Valid loss:  0.3847992133293579
+Valid binary acc:  0.8641577329634905
+Valid precision:  0.7484076433121019
+Valid recall:  0.22128060263653485
+Valid f1:  0.34156976744186046
+Valid AUC:  0.8477946035080473
+Valid AUPRC:  0.559889498719634
+Valid mcc:  0.3579158111896027
+
+========== Train epoch 23 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3619377703758215
+Train binary acc:  0.8748983336170535
+Train AUC:  0.8624650718932807
+Train AUPRC:  0.6001942619537215
+========== Evaluate Valid set ==========
+Valid loss:  0.39203926831928654
+Valid binary acc:  0.8664817452582653
+Valid precision:  0.714107365792759
+Valid recall:  0.2693032015065913
+Valid f1:  0.39111111111111113
+Valid AUC:  0.8523159307928496
+Valid AUPRC:  0.5517650407215257
+Valid mcc:  0.38330430030964313
+
+========== Train epoch 24 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36115717594878055
+Train binary acc:  0.8530140536041915
+Train AUC:  0.86693288474151
+Train AUPRC:  0.59183801914526
+========== Evaluate Valid set ==========
+Valid loss:  0.3848541705910839
+Valid binary acc:  0.8537371617062748
+Valid precision:  0.5374945817078457
+Valid recall:  0.583804143126177
+Valid f1:  0.5596930715414128
+Valid AUC:  0.8608731873927927
+Valid AUPRC:  0.5598695019280708
+Valid mcc:  0.4727549184341509
+
+========== Train epoch 25 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3638575597481335
+Train binary acc:  0.879210879721576
+Train AUC:  0.8671705625869124
+Train AUPRC:  0.6140246631155152
+========== Evaluate Valid set ==========
+Valid loss:  0.3738840440315987
+Valid binary acc:  0.8723292600644726
+Valid precision:  0.6911898274296094
+Valid recall:  0.358286252354049
+Valid f1:  0.47193798449612406
+Valid AUC:  0.8474104411884472
+Valid AUPRC:  0.5574180628401761
+Valid mcc:  0.4360755625621835
+
+========== Train epoch 26 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36525974645931625
+Train binary acc:  0.8770546066693147
+Train AUC:  0.8723176028277496
+Train AUPRC:  0.6116399624657536
+========== Evaluate Valid set ==========
+Valid loss:  0.3524911443688976
+Valid binary acc:  0.8711297698478147
+Valid precision:  0.6314081765087606
+Valid recall:  0.4580979284369115
+Valid f1:  0.530968622100955
+Valid AUC:  0.8629055198302651
+Valid AUPRC:  0.5620828016921476
+Valid mcc:  0.4663878971281291
+
+========== Train epoch 27 ==========
+========== Evaluate Train set ==========
+Train loss:  0.357748045847657
+Train binary acc:  0.8735175622765704
+Train AUC:  0.868293831869154
+Train AUPRC:  0.5956284751619639
+========== Evaluate Valid set ==========
+Valid loss:  0.41524247680582216
+Valid binary acc:  0.868206012444711
+Valid precision:  0.723170731707317
+Valid recall:  0.2791902071563089
+Valid f1:  0.40285326086956524
+Valid AUC:  0.8568858713402568
+Valid AUPRC:  0.5650219920047839
+Valid mcc:  0.3944574436467296
+
+========== Train epoch 28 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36275129491805136
+Train binary acc:  0.8715882653350735
+Train AUC:  0.8728820284015564
+Train AUPRC:  0.6150503384299
+========== Evaluate Valid set ==========
+Valid loss:  0.4037657615853779
+Valid binary acc:  0.8619086888072569
+Valid precision:  0.7288961038961039
+Valid recall:  0.21139359698681734
+Valid f1:  0.32773722627737223
+Valid AUC:  0.8576354727366916
+Valid AUPRC:  0.5534965194085129
+Valid mcc:  0.342578872262888
+
+========== Train epoch 29 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3569757529858793
+Train binary acc:  0.8780759991677543
+Train AUC:  0.8713627698098385
+Train AUPRC:  0.6129993372814037
+========== Evaluate Valid set ==========
+Valid loss:  0.36058596643938945
+Valid binary acc:  0.8709048654321914
+Valid precision:  0.7051020408163265
+Valid recall:  0.3253295668549906
+Valid f1:  0.4452319587628866
+Valid AUC:  0.8587290822336576
+Valid AUPRC:  0.5570187412406314
+Valid mcc:  0.42010393450068895
+
+========== Train epoch 30 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3613147937068332
+Train binary acc:  0.873214927462218
+Train AUC:  0.8750754710737156
+Train AUPRC:  0.6136722440719385
+========== Evaluate Valid set ==========
+Valid loss:  0.3705124726046377
+Valid binary acc:  0.8640827648249494
+Valid precision:  0.7138927097661623
+Valid recall:  0.2443502824858757
+Valid f1:  0.36408277797264116
+Valid AUC:  0.8543874938813618
+Valid AUPRC:  0.550305134683873
+Valid mcc:  0.3639558877344873
+
+========== Train epoch 31 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3575380083717657
+Train binary acc:  0.8832397056876431
+Train AUC:  0.8802467107597128
+Train AUPRC:  0.632697845427187
+========== Evaluate Valid set ==========
+Valid loss:  0.34864754396588055
+Valid binary acc:  0.8737536546967539
+Valid precision:  0.6861252115059222
+Valid recall:  0.3818267419962335
+Valid f1:  0.4906231094978826
+Valid AUC:  0.8660284391784275
+Valid AUPRC:  0.5689755492578209
+Valid mcc:  0.44901850704923574
+
+========== Train epoch 32 ==========
+========== Evaluate Train set ==========
+Train loss:  0.35484961704926543
+Train binary acc:  0.8697157124212677
+Train AUC:  0.8673030207702874
+Train AUPRC:  0.6114791870802196
+========== Evaluate Valid set ==========
+Valid loss:  0.41282451997942
+Valid binary acc:  0.8652822550416073
+Valid precision:  0.7823834196891192
+Valid recall:  0.2132768361581921
+Valid f1:  0.3351831298557159
+Valid AUC:  0.8475077516743869
+Valid AUPRC:  0.5704722777614133
+Valid mcc:  0.3627886432782
+
+========== Train epoch 33 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3439619086599082
+Train binary acc:  0.8786056100928711
+Train AUC:  0.8781165187755027
+Train AUPRC:  0.6230029986354522
+========== Evaluate Valid set ==========
+Valid loss:  0.39028848874479977
+Valid binary acc:  0.8703051203238623
+Valid precision:  0.7188888888888889
+Valid recall:  0.3046139359698682
+Valid f1:  0.427910052910053
+Valid AUC:  0.8668707752010231
+Valid AUPRC:  0.5778660263711268
+Valid mcc:  0.41143051462622676
+
+========== Train epoch 34 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3423900210511372
+Train binary acc:  0.884525903648641
+Train AUC:  0.8797430080823556
+Train AUPRC:  0.6411551954805517
+========== Evaluate Valid set ==========
+Valid loss:  0.3941407460552543
+Valid binary acc:  0.8760776669915286
+Valid precision:  0.688550840672538
+Valid recall:  0.4048964218455744
+Valid f1:  0.5099318114438186
+Valid AUC:  0.8637476459510359
+Valid AUPRC:  0.5723308006437011
+Valid mcc:  0.4649770641878178
+
+========== Train epoch 35 ==========
+========== Evaluate Train set ==========
+Train loss:  0.33932749913091514
+Train binary acc:  0.8819156783748511
+Train AUC:  0.8740531975602618
+Train AUPRC:  0.6358094666100844
+========== Evaluate Valid set ==========
+Valid loss:  0.42703554734810073
+Valid binary acc:  0.8703051203238623
+Valid precision:  0.6129587155963303
+Valid recall:  0.5032956685499058
+Valid f1:  0.5527404343329886
+Valid AUC:  0.8608432134122228
+Valid AUPRC:  0.569316051038537
+Valid mcc:  0.4809260261902797
+
+========== Train epoch 36 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3466153915566898
+Train binary acc:  0.8844502449450529
+Train AUC:  0.8857009649270047
+Train AUPRC:  0.6463256621681415
+========== Evaluate Valid set ==========
+Valid loss:  0.36219045364145025
+Valid binary acc:  0.8758527625759053
+Valid precision:  0.7119565217391305
+Valid recall:  0.3700564971751412
+Valid f1:  0.486988847583643
+Valid AUC:  0.8689336693441744
+Valid AUPRC:  0.5837780392105326
+Valid mcc:  0.45377169618391416
+
+========== Train epoch 37 ==========
+========== Evaluate Train set ==========
+Train loss:  0.343266191860933
+Train binary acc:  0.886511944617829
+Train AUC:  0.888104859194051
+Train AUPRC:  0.6520242315748062
+========== Evaluate Valid set ==========
+Valid loss:  0.35954374519746696
+Valid binary acc:  0.8757777944373641
+Valid precision:  0.6645525017618041
+Valid recall:  0.4439736346516008
+Valid f1:  0.5323172452723681
+Valid AUC:  0.8718753804470573
+Valid AUPRC:  0.5806455028013614
+Valid mcc:  0.4765034898637304
+
+========== Train epoch 38 ==========
+========== Evaluate Train set ==========
+Train loss:  0.33787279933244546
+Train binary acc:  0.8847717944353024
+Train AUC:  0.8841729899539185
+Train AUPRC:  0.6445405832142337
+========== Evaluate Valid set ==========
+Valid loss:  0.36774166384294854
+Valid binary acc:  0.8758527625759053
+Valid precision:  0.6825273010920437
+Valid recall:  0.4119585687382298
+Valid f1:  0.5137991779213154
+Valid AUC:  0.8648166129737798
+Valid AUPRC:  0.5651526871278719
+Valid mcc:  0.46635573706265465
+
+========== Train epoch 39 ==========
+========== Evaluate Train set ==========
+Train loss:  0.334593373486835
+Train binary acc:  0.8828424974938054
+Train AUC:  0.8797425199759064
+Train AUPRC:  0.6313488562650964
+========== Evaluate Valid set ==========
+Valid loss:  0.38238551812385446
+Valid binary acc:  0.8739785591123772
+Valid precision:  0.6734534064212999
+Valid recall:  0.4048964218455744
+Valid f1:  0.5057336077624227
+Valid AUC:  0.8635001297193277
+Valid AUPRC:  0.5767594643819837
+Valid mcc:  0.45727982430224173
+
+========== Train epoch 40 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3402377310651965
+Train binary acc:  0.8869848115152547
+Train AUC:  0.8878000217188281
+Train AUPRC:  0.6554349706220783
+========== Evaluate Valid set ==========
+Valid loss:  0.35532620326796577
+Valid binary acc:  0.8784016792863033
+Valid precision:  0.6686827956989247
+Valid recall:  0.4684557438794727
+Valid f1:  0.5509413067552602
+Valid AUC:  0.8690341073673022
+Valid AUPRC:  0.5799421137710004
+Valid mcc:  0.49336951443153604
+
+========== Train epoch 41 ==========
+========== Evaluate Train set ==========
+Train loss:  0.341478963413935
+Train binary acc:  0.8854527227675953
+Train AUC:  0.8875125324739404
+Train AUPRC:  0.6494670246954206
+========== Evaluate Valid set ==========
+Valid loss:  0.3493276614306578
+Valid binary acc:  0.8752530174675763
+Valid precision:  0.7102376599634369
+Valid recall:  0.365819209039548
+Valid f1:  0.4829086389061528
+Valid AUC:  0.867175447699602
+Valid AUPRC:  0.5829520302327302
+Valid mcc:  0.4501232505736518
+
+========== Train epoch 42 ==========
+========== Evaluate Train set ==========
+Train loss:  0.33424648430463527
+Train binary acc:  0.8839395486958331
+Train AUC:  0.8846147399247222
+Train AUPRC:  0.6432883867489267
+========== Evaluate Valid set ==========
+Valid loss:  0.38609454235923824
+Valid binary acc:  0.8761526351300697
+Valid precision:  0.7010221465076661
+Valid recall:  0.3874764595103578
+Valid f1:  0.4990903577926016
+Valid AUC:  0.8660469735095502
+Valid AUPRC:  0.5812036787984061
+Valid mcc:  0.45999722312318847
+
+========== Train epoch 43 ==========
+========== Evaluate Train set ==========
+Train loss:  0.33613645876949644
+Train binary acc:  0.886549773969623
+Train AUC:  0.8889089709395164
+Train AUPRC:  0.6553899540784949
+========== Evaluate Valid set ==========
+Valid loss:  0.36796808698728906
+Valid binary acc:  0.8773521253467277
+Valid precision:  0.6678129298486932
+Valid recall:  0.4571563088512241
+Valid f1:  0.5427613191727222
+Valid AUC:  0.8712896494051803
+Valid AUPRC:  0.5884211664251445
+Valid mcc:  0.48617069864954826
+
+========== Train epoch 44 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3343593097860447
+Train binary acc:  0.8890086818362367
+Train AUC:  0.8909704162662331
+Train AUPRC:  0.66425107445961
+========== Evaluate Valid set ==========
+Valid loss:  0.3762617541560486
+Valid binary acc:  0.8777269660394332
+Valid precision:  0.7022149302707137
+Valid recall:  0.4030131826741996
+Valid f1:  0.5121148668860305
+Valid AUC:  0.8703351628376376
+Valid AUPRC:  0.5853031455767895
+Valid mcc:  0.47063349884107447
+
+========== Train epoch 45 ==========
+========== Evaluate Train set ==========
+Train loss:  0.333344937961423
+Train binary acc:  0.8855283814711835
+Train AUC:  0.8890834130946537
+Train AUPRC:  0.6520447490719529
+========== Evaluate Valid set ==========
+Valid loss:  0.3678187909188555
+Valid binary acc:  0.877577029762351
+Valid precision:  0.7186108637577916
+Valid recall:  0.3799435028248588
+Valid f1:  0.4970742223591007
+Valid AUC:  0.8662382360522336
+Valid AUPRC:  0.5894740919969057
+Valid mcc:  0.46352967487908464
+
+========== Train epoch 46 ==========
+========== Evaluate Train set ==========
+Train loss:  0.33621503669447667
+Train binary acc:  0.8860201630445063
+Train AUC:  0.8876590134920366
+Train AUPRC:  0.6552467893695223
+========== Evaluate Valid set ==========
+Valid loss:  0.4072749542433824
+Valid binary acc:  0.874428367943624
+Valid precision:  0.6327616794795978
+Valid recall:  0.5037664783427496
+Valid f1:  0.5609436435124509
+Valid AUC:  0.8668911986485681
+Valid AUPRC:  0.5796627946152493
+Valid mcc:  0.49310499917268685
+
+========== Train epoch 47 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3321532614612847
+Train binary acc:  0.8847717944353024
+Train AUC:  0.8837581676433721
+Train AUPRC:  0.6455439070075846
+========== Evaluate Valid set ==========
+Valid loss:  0.3722977928483664
+Valid binary acc:  0.8739035909738361
+Valid precision:  0.6915077989601387
+Valid recall:  0.3757062146892655
+Valid f1:  0.48688224527150703
+Valid AUC:  0.8632791240880815
+Valid AUPRC:  0.5724537048864956
+Valid mcc:  0.44768543919350606
+
+========== Train epoch 48 ==========
+========== Evaluate Train set ==========
+Train loss:  0.33289984934562156
+Train binary acc:  0.8877792279029298
+Train AUC:  0.8904019644959331
+Train AUPRC:  0.6588714012696967
+========== Evaluate Valid set ==========
+Valid loss:  0.3603217547286802
+Valid binary acc:  0.8766024439613165
+Valid precision:  0.674198250728863
+Valid recall:  0.4354990583804143
+Valid f1:  0.5291762013729977
+Valid AUC:  0.8722812676055156
+Valid AUPRC:  0.5780425645868431
+Valid mcc:  0.4765508846433099
+
+========== Train epoch 49 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3337887946641847
+Train binary acc:  0.8866821767009022
+Train AUC:  0.8881352458656538
+Train AUPRC:  0.6548170880011159
+========== Evaluate Valid set ==========
+Valid loss:  0.391999003824903
+Valid binary acc:  0.8774270934852687
+Valid precision:  0.7154185022026431
+Valid recall:  0.3822975517890772
+Valid f1:  0.49831236575636695
+Valid AUC:  0.8662498436231407
+Valid AUPRC:  0.5865765161069318
+Valid mcc:  0.46356794644736754
+
+========== Train epoch 50 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3304190528526735
+Train binary acc:  0.8847528797594053
+Train AUC:  0.8835586657213725
+Train AUPRC:  0.6440534114573342
+========== Evaluate Valid set ==========
+Valid loss:  0.3759430539029748
+Valid binary acc:  0.8737536546967539
+Valid precision:  0.6564722617354196
+Valid recall:  0.4345574387947269
+Valid f1:  0.5229461756373937
+Valid AUC:  0.8674804560411005
+Valid AUPRC:  0.5803553971305383
+Valid mcc:  0.4664769822223124
+
+
+========== Fold 3 ==========
+Train on 267 samples, validate on 67 samples
+
+========== Train epoch 1 ==========
+========== Evaluate Train set ==========
+Train loss:  0.4973655130421178
+Train binary acc:  0.8434681517316382
+Train AUC:  0.7380494974011554
+Train AUPRC:  0.36354596845297904
+========== Evaluate Valid set ==========
+Valid loss:  0.44338671218103437
+Valid binary acc:  0.854391550827056
+Valid precision:  0.6140350877192983
+Valid recall:  0.018538135593220338
+Valid f1:  0.03598971722365038
+Valid AUC:  0.7451342665855377
+Valid AUPRC:  0.34504285464984913
+Valid mcc:  0.08811150380389117
+
+========== Train epoch 2 ==========
+========== Evaluate Train set ==========
+Train loss:  0.455298583159286
+Train binary acc:  0.8510809847930847
+Train AUC:  0.7919651199389457
+Train AUPRC:  0.44463616148244184
+========== Evaluate Valid set ==========
+Valid loss:  0.4137504970404639
+Valid binary acc:  0.8629339131785354
+Valid precision:  0.6153846153846154
+Valid recall:  0.17372881355932204
+Valid f1:  0.27096241222635276
+Valid AUC:  0.7857085465665974
+Valid AUPRC:  0.42322055664192115
+Valid mcc:  0.2753765378710875
+
+========== Train epoch 3 ==========
+========== Evaluate Train set ==========
+Train loss:  0.4411308160714442
+Train binary acc:  0.855712437419137
+Train AUC:  0.8170732343170527
+Train AUPRC:  0.4866051570579702
+========== Evaluate Valid set ==========
+Valid loss:  0.39529702000653566
+Valid binary acc:  0.8625456239807409
+Valid precision:  0.558531746031746
+Valid recall:  0.2981991525423729
+Valid f1:  0.3888121546961326
+Valid AUC:  0.8099112450277703
+Valid AUPRC:  0.45696179669353687
+Valid mcc:  0.33936269424715426
+
+========== Train epoch 4 ==========
+========== Evaluate Train set ==========
+Train loss:  0.4148955344595713
+Train binary acc:  0.8626689917683898
+Train AUC:  0.8325589002998706
+Train AUPRC:  0.5270254151248281
+========== Evaluate Valid set ==========
+Valid loss:  0.38638150158213147
+Valid binary acc:  0.8668168051564805
+Valid precision:  0.5990836197021764
+Valid recall:  0.2770127118644068
+Valid f1:  0.3788482433900761
+Valid AUC:  0.8259377684695483
+Valid AUPRC:  0.48145508285181604
+Valid mcc:  0.3449564951719693
+
+========== Train epoch 5 ==========
+========== Evaluate Train set ==========
+Train loss:  0.39775334639049204
+Train binary acc:  0.8547748964017176
+Train AUC:  0.8349506473037811
+Train AUPRC:  0.5283349054578494
+========== Evaluate Valid set ==========
+Valid loss:  0.39314724282542274
+Valid binary acc:  0.8657295954026559
+Valid precision:  0.6953316953316954
+Valid recall:  0.14989406779661016
+Valid f1:  0.2466230936819172
+Valid AUC:  0.8297816547286885
+Valid AUPRC:  0.4886441656042312
+Valid mcc:  0.2802492060529162
+
+========== Train epoch 6 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3977952975403057
+Train binary acc:  0.8657253754851775
+Train AUC:  0.8416191744474185
+Train AUPRC:  0.5480239948071695
+========== Evaluate Valid set ==========
+Valid loss:  0.37917981541423657
+Valid binary acc:  0.8665838316378038
+Valid precision:  0.578268876611418
+Valid recall:  0.3326271186440678
+Valid f1:  0.42232683254875586
+Valid AUC:  0.8371167295955433
+Valid AUPRC:  0.5058327440528321
+Valid mcc:  0.37034529628714674
+
+========== Train epoch 7 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3905450350392177
+Train binary acc:  0.8636627852468546
+Train AUC:  0.8408443959239308
+Train AUPRC:  0.5512048183073949
+========== Evaluate Valid set ==========
+Valid loss:  0.45681630308503535
+Valid binary acc:  0.8706996971344257
+Valid precision:  0.6718027734976888
+Valid recall:  0.2309322033898305
+Valid f1:  0.3437130469057943
+Valid AUC:  0.831457010747265
+Valid AUPRC:  0.5002631463242174
+Valid mcc:  0.3420514003413556
+
+========== Train epoch 8 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3872858900367544
+Train binary acc:  0.8586938178545311
+Train AUC:  0.8519396445594404
+Train AUPRC:  0.5737649590358257
+========== Evaluate Valid set ==========
+Valid loss:  0.3932342765046589
+Valid binary acc:  0.8695348295410422
+Valid precision:  0.744131455399061
+Valid recall:  0.16790254237288135
+Valid f1:  0.27398444252376836
+Valid AUC:  0.8492754599746125
+Valid AUPRC:  0.5291023368166782
+Valid mcc:  0.31245320644392716
+
+========== Train epoch 9 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3873963409595275
+Train binary acc:  0.87151937897283
+Train AUC:  0.862537918980764
+Train AUPRC:  0.5794764570480151
+========== Evaluate Valid set ==========
+Valid loss:  0.36432511926586947
+Valid binary acc:  0.8688359089850121
+Valid precision:  0.5752078609221466
+Valid recall:  0.4030720338983051
+Valid f1:  0.47399563998754285
+Valid AUC:  0.8495531355700848
+Valid AUPRC:  0.5219138747515817
+Valid mcc:  0.4100060321028821
+
+========== Train epoch 10 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3779891044292111
+Train binary acc:  0.8675442050589713
+Train AUC:  0.858218505108231
+Train AUPRC:  0.5792319129137908
+========== Evaluate Valid set ==========
+Valid loss:  0.37764937386139114
+Valid binary acc:  0.8593616525588258
+Valid precision:  0.5215204024594746
+Valid recall:  0.4941737288135593
+Valid f1:  0.507478923035083
+Valid AUC:  0.8460152178372516
+Valid AUPRC:  0.5241869599532322
+Valid mcc:  0.4257271994769714
+
+========== Train epoch 11 ==========
+========== Evaluate Train set ==========
+Train loss:  0.37856270035219547
+Train binary acc:  0.8716318838949204
+Train AUC:  0.8573229422171046
+Train AUPRC:  0.5813877284610721
+========== Evaluate Valid set ==========
+Valid loss:  0.3974481029296989
+Valid binary acc:  0.8658072532422147
+Valid precision:  0.560882800608828
+Valid recall:  0.3903601694915254
+Valid f1:  0.4603372891942536
+Valid AUC:  0.8433047839827501
+Valid AUPRC:  0.5079072793644884
+Valid mcc:  0.39479811121326663
+
+========== Train epoch 12 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3775509048936965
+Train binary acc:  0.8703005756501847
+Train AUC:  0.8662073184260559
+Train AUPRC:  0.5912289381051502
+========== Evaluate Valid set ==========
+Valid loss:  0.38723738447054107
+Valid binary acc:  0.874504931272812
+Valid precision:  0.6642512077294686
+Valid recall:  0.2913135593220339
+Valid f1:  0.4050073637702504
+Valid AUC:  0.8534444498427549
+Valid AUPRC:  0.5245248383306007
+Valid mcc:  0.3836157319794252
+
+========== Train epoch 13 ==========
+========== Evaluate Train set ==========
+Train loss:  0.382971456267414
+Train binary acc:  0.8706380904164557
+Train AUC:  0.8669747388032116
+Train AUPRC:  0.5999909493331232
+========== Evaluate Valid set ==========
+Valid loss:  0.4359583037335481
+Valid binary acc:  0.8724858274442805
+Valid precision:  0.6420323325635104
+Valid recall:  0.2944915254237288
+Valid f1:  0.40377632534495284
+Valid AUC:  0.849144334048995
+Valid AUPRC:  0.5266659083208556
+Valid mcc:  0.3760733358172119
+
+========== Train epoch 14 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3722610244255387
+Train binary acc:  0.8717818904577075
+Train AUC:  0.8553790900638798
+Train AUPRC:  0.5787876773710675
+========== Evaluate Valid set ==========
+Valid loss:  0.3983620068252976
+Valid binary acc:  0.8717092490486915
+Valid precision:  0.6130268199233716
+Valid recall:  0.3389830508474576
+Valid f1:  0.43656207366984995
+Valid AUC:  0.8421606313555466
+Valid AUPRC:  0.5186835843168189
+Valid mcc:  0.39165545927939516
+
+========== Train epoch 15 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3736300573366858
+Train binary acc:  0.8567249817179502
+Train AUC:  0.8495346133322059
+Train AUPRC:  0.547719574066965
+========== Evaluate Valid set ==========
+Valid loss:  0.3758944846800904
+Valid binary acc:  0.8692241981828066
+Valid precision:  0.7339449541284404
+Valid recall:  0.1694915254237288
+Valid f1:  0.27538726333907054
+Valid AUC:  0.8467567625406609
+Valid AUPRC:  0.5269928433163344
+Valid mcc:  0.310835165135704
+
+========== Train epoch 16 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3715867352173123
+Train binary acc:  0.8736757233128949
+Train AUC:  0.8672454196884121
+Train AUPRC:  0.6014177604461473
+========== Evaluate Valid set ==========
+Valid loss:  0.3621875959545819
+Valid binary acc:  0.8755144831870777
+Valid precision:  0.6437941473259334
+Valid recall:  0.3379237288135593
+Valid f1:  0.4432094477249045
+Valid AUC:  0.8509490326227613
+Valid AUPRC:  0.5327379387846752
+Valid mcc:  0.40584842225654666
+
+========== Train epoch 17 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36894557387864546
+Train binary acc:  0.8788509497290506
+Train AUC:  0.8738394370291208
+Train AUPRC:  0.6197367586375386
+========== Evaluate Valid set ==========
+Valid loss:  0.3710119407346
+Valid binary acc:  0.8762134037431079
+Valid precision:  0.6319569120287253
+Valid recall:  0.3728813559322034
+Valid f1:  0.46902065289806794
+Valid AUC:  0.8599986253587948
+Valid AUPRC:  0.5515714705405811
+Valid mcc:  0.4222437911212446
+
+========== Train epoch 18 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36400049743469287
+Train binary acc:  0.8736944741332433
+Train AUC:  0.874132779158894
+Train AUPRC:  0.616388233580141
+========== Evaluate Valid set ==========
+Valid loss:  0.41841506190709216
+Valid binary acc:  0.8748932204706065
+Valid precision:  0.6590126291618829
+Valid recall:  0.3040254237288136
+Valid f1:  0.41609278724175425
+Valid AUC:  0.8598039728866
+Valid AUPRC:  0.547734431925493
+Valid mcc:  0.39016570239886894
+
+========== Train epoch 19 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36809916679890414
+Train binary acc:  0.8777259005081472
+Train AUC:  0.8781151609188098
+Train AUPRC:  0.6137911673150236
+========== Evaluate Valid set ==========
+Valid loss:  0.3625425301603417
+Valid binary acc:  0.8761357459035489
+Valid precision:  0.6165473349244233
+Valid recall:  0.4104872881355932
+Valid f1:  0.492845786963434
+Valid AUC:  0.8623709659196948
+Valid AUPRC:  0.5555036778750164
+Valid mcc:  0.4369500004711424
+
+========== Train epoch 20 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3637316874629549
+Train binary acc:  0.8714631265117849
+Train AUC:  0.8686719150346458
+Train AUPRC:  0.591651822014751
+========== Evaluate Valid set ==========
+Valid loss:  0.38265906352160584
+Valid binary acc:  0.8679816727498642
+Valid precision:  0.5583850931677019
+Valid recall:  0.4761652542372881
+Valid f1:  0.5140080045740424
+Valid AUC:  0.8543957574677914
+Valid AUPRC:  0.5424007650697134
+Valid mcc:  0.44004292242561915
+
+========== Train epoch 21 ==========
+========== Evaluate Train set ==========
+Train loss:  0.35658567077881387
+Train binary acc:  0.8791884644953216
+Train AUC:  0.8800979875116379
+Train AUPRC:  0.6222576584407308
+========== Evaluate Valid set ==========
+Valid loss:  0.35513952029729956
+Valid binary acc:  0.8755921410266366
+Valid precision:  0.6170212765957447
+Valid recall:  0.399364406779661
+Valid f1:  0.484887459807074
+Valid AUC:  0.8584347540915338
+Valid AUPRC:  0.5565191036177466
+Valid mcc:  0.4306103014528334
+
+========== Train epoch 22 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3684231596493096
+Train binary acc:  0.8552624177307757
+Train AUC:  0.8791179549467505
+Train AUPRC:  0.6215485108528256
+========== Evaluate Valid set ==========
+Valid loss:  0.40144271136664633
+Valid binary acc:  0.8357536693329192
+Valid precision:  0.4583180315828131
+Valid recall:  0.6610169491525424
+Valid f1:  0.5413142485361093
+Valid AUC:  0.8559461811580457
+Valid AUPRC:  0.5488541084601212
+Valid mcc:  0.4563275611046181
+
+========== Train epoch 23 ==========
+========== Evaluate Train set ==========
+Train loss:  0.35516119645106214
+Train binary acc:  0.8714443756914365
+Train AUC:  0.8693780465363143
+Train AUPRC:  0.6080683052562905
+========== Evaluate Valid set ==========
+Valid loss:  0.37447991466789105
+Valid binary acc:  0.8654966218839791
+Valid precision:  0.5440180586907449
+Valid recall:  0.510593220338983
+Valid f1:  0.526775956284153
+Valid AUC:  0.8591212312080956
+Valid AUPRC:  0.5482358033720423
+Valid mcc:  0.4487816769813121
+
+========== Train epoch 24 ==========
+========== Evaluate Train set ==========
+Train loss:  0.363379507057006
+Train binary acc:  0.877182126718044
+Train AUC:  0.8779553994742391
+Train AUPRC:  0.6259282914277093
+========== Evaluate Valid set ==========
+Valid loss:  0.3820814763876929
+Valid binary acc:  0.8646423856488312
+Valid precision:  0.5383800952885125
+Valid recall:  0.5386652542372882
+Valid f1:  0.5385226370135028
+Valid AUC:  0.8581433417238502
+Valid AUPRC:  0.5410222136631504
+Valid mcc:  0.4592124777072622
+
+========== Train epoch 25 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3579747520861554
+Train binary acc:  0.8759445725750502
+Train AUC:  0.8846582804580629
+Train AUPRC:  0.6291848746553832
+========== Evaluate Valid set ==========
+Valid loss:  0.37243242228209084
+Valid binary acc:  0.86402112293236
+Valid precision:  0.5355106272680145
+Valid recall:  0.5471398305084746
+Valid f1:  0.5412627718103222
+Valid AUC:  0.858129629051239
+Valid AUPRC:  0.55547588558416
+Valid mcc:  0.4614907940444057
+
+========== Train epoch 26 ==========
+========== Evaluate Train set ==========
+Train loss:  0.35306421918480585
+Train binary acc:  0.8796384841836831
+Train AUC:  0.8804066670249213
+Train AUPRC:  0.6234579211374562
+========== Evaluate Valid set ==========
+Valid loss:  0.397137157062986
+Valid binary acc:  0.8717869068882503
+Valid precision:  0.5875831485587583
+Valid recall:  0.4210805084745763
+Valid f1:  0.49058932428262886
+Valid AUC:  0.8591441499280482
+Valid AUPRC:  0.5400503737030905
+Valid mcc:  0.4271556479129485
+
+========== Train epoch 27 ==========
+========== Evaluate Train set ==========
+Train loss:  0.35551700916852846
+Train binary acc:  0.8740694905402111
+Train AUC:  0.8799803863994197
+Train AUPRC:  0.6156814901888619
+========== Evaluate Valid set ==========
+Valid loss:  0.3683667998038121
+Valid binary acc:  0.868913566824571
+Valid precision:  0.5591715976331361
+Valid recall:  0.5005296610169492
+Valid f1:  0.5282280603689211
+Valid AUC:  0.8608874186204696
+Valid AUPRC:  0.5589303090313086
+Valid mcc:  0.45331649776421057
+
+========== Train epoch 28 ==========
+========== Evaluate Train set ==========
+Train loss:  0.35049399298228573
+Train binary acc:  0.8841199302469483
+Train AUC:  0.8872390157802541
+Train AUPRC:  0.6486132256581283
+========== Evaluate Valid set ==========
+Valid loss:  0.3504209074733862
+Valid binary acc:  0.8742719577541352
+Valid precision:  0.5946516537649542
+Valid recall:  0.4475635593220339
+Valid f1:  0.5107283167119976
+Valid AUC:  0.8688246943013892
+Valid AUPRC:  0.5670975679607779
+Valid mcc:  0.44609338826250317
+
+========== Train epoch 29 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3492058316866557
+Train binary acc:  0.8827886220022126
+Train AUC:  0.8886716798376958
+Train AUPRC:  0.6467097354715258
+========== Evaluate Valid set ==========
+Valid loss:  0.3558048989568184
+Valid binary acc:  0.8738836685563408
+Valid precision:  0.578853046594982
+Valid recall:  0.5132415254237288
+Valid f1:  0.5440763615946097
+Valid AUC:  0.8671425180959079
+Valid AUPRC:  0.5770440643826945
+Valid mcc:  0.47235133738245744
+
+========== Train epoch 30 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3489414637120029
+Train binary acc:  0.8776321464064053
+Train AUC:  0.8871977692822044
+Train AUPRC:  0.6448339049423016
+========== Evaluate Valid set ==========
+Valid loss:  0.353485414897328
+Valid binary acc:  0.8654189640444203
+Valid precision:  0.5395206527281999
+Valid recall:  0.5603813559322034
+Valid f1:  0.5497531826448429
+Valid AUC:  0.8619849385209554
+Valid AUPRC:  0.5651090336596476
+Valid mcc:  0.4707893254054578
+
+========== Train epoch 31 ==========
+========== Evaluate Train set ==========
+Train loss:  0.35540821216302865
+Train binary acc:  0.8601563818417056
+Train AUC:  0.8754087832700038
+Train AUPRC:  0.6101301123493786
+========== Evaluate Valid set ==========
+Valid loss:  0.384181612018329
+Valid binary acc:  0.8488778442183739
+Valid precision:  0.4875
+Valid recall:  0.5990466101694916
+Valid f1:  0.5375475285171103
+Valid AUC:  0.8585016545821631
+Valid AUPRC:  0.5457890859795604
+Valid mcc:  0.45176482541922036
+
+========== Train epoch 32 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3480492603689544
+Train binary acc:  0.8787571956273087
+Train AUC:  0.875503920937282
+Train AUPRC:  0.6336993937584803
+========== Evaluate Valid set ==========
+Valid loss:  0.3716639591686761
+Valid binary acc:  0.8674380678729517
+Valid precision:  0.5477572559366755
+Valid recall:  0.5497881355932204
+Valid f1:  0.548770816812054
+Valid AUC:  0.8591243882557441
+Valid AUPRC:  0.5629603628560435
+Valid mcc:  0.4710789137082281
+
+========== Train epoch 33 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3484213026833445
+Train binary acc:  0.8859575106410905
+Train AUC:  0.8855409771424222
+Train AUPRC:  0.6462325922061996
+========== Evaluate Valid set ==========
+Valid loss:  0.3741854523767286
+Valid binary acc:  0.8763687194222257
+Valid precision:  0.5982735723771581
+Valid recall:  0.4772245762711864
+Valid f1:  0.5309369475545079
+Valid AUC:  0.8646378948285729
+Valid AUPRC:  0.5700455983676593
+Valid mcc:  0.46468124248819875
+
+========== Train epoch 34 ==========
+========== Evaluate Train set ==========
+Train loss:  0.33834355494726015
+Train binary acc:  0.8843824417318258
+Train AUC:  0.8840161780161249
+Train AUPRC:  0.647113154915931
+========== Evaluate Valid set ==========
+Valid loss:  0.3431194233360575
+Valid binary acc:  0.8813388211539955
+Valid precision:  0.6682242990654206
+Valid recall:  0.3787076271186441
+Valid f1:  0.4834347532116295
+Valid AUC:  0.8673124443781224
+Valid AUPRC:  0.5708758111629225
+Valid mcc:  0.44391472152899686
+
+========== Train epoch 35 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34503608294640586
+Train binary acc:  0.8814010612964317
+Train AUC:  0.8873371560459551
+Train AUPRC:  0.6396113575564126
+========== Evaluate Valid set ==========
+Valid loss:  0.3843760374766677
+Valid binary acc:  0.8756697988661956
+Valid precision:  0.6332404828226555
+Valid recall:  0.361228813559322
+Valid f1:  0.4600337268128162
+Valid AUC:  0.8649265357422137
+Valid AUPRC:  0.5487213923543062
+Valid mcc:  0.41561731395815854
+
+========== Train epoch 36 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3399999525105016
+Train binary acc:  0.8858450057190002
+Train AUC:  0.889948250974419
+Train AUPRC:  0.6538851091676863
+========== Evaluate Valid set ==========
+Valid loss:  0.38188147911829734
+Valid binary acc:  0.8784654810903161
+Valid precision:  0.6174545454545455
+Valid recall:  0.4496822033898305
+Valid f1:  0.5203800183879865
+Valid AUC:  0.8675448368244978
+Valid AUPRC:  0.5846006502775394
+Valid mcc:  0.4602241932276243
+
+========== Train epoch 37 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3474437462145023
+Train binary acc:  0.88631377622771
+Train AUC:  0.893263532374831
+Train AUPRC:  0.6610599794862857
+========== Evaluate Valid set ==========
+Valid loss:  0.3559245545027861
+Valid binary acc:  0.8731847480003107
+Valid precision:  0.5707940033314826
+Valid recall:  0.5444915254237288
+Valid f1:  0.5573326104635403
+Valid AUC:  0.8671333602477669
+Valid AUPRC:  0.5822175378142359
+Valid mcc:  0.48355523746084755
+
+========== Train epoch 38 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3414571570155772
+Train binary acc:  0.8708068477995913
+Train AUC:  0.8862989756637459
+Train AUPRC:  0.641005290882271
+========== Evaluate Valid set ==========
+Valid loss:  0.36554425443286326
+Valid binary acc:  0.8547798400248505
+Valid precision:  0.5041322314049587
+Valid recall:  0.5815677966101694
+Valid f1:  0.5400885391047713
+Valid AUC:  0.8573594058233889
+Valid AUPRC:  0.5525028141220815
+Valid mcc:  0.45602147071225435
+
+========== Train epoch 39 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34268760150961214
+Train binary acc:  0.8850949729050646
+Train AUC:  0.8911487351858097
+Train AUPRC:  0.6533686333113373
+========== Evaluate Valid set ==========
+Valid loss:  0.3507244734844165
+Valid binary acc:  0.878543138929875
+Valid precision:  0.6225416036308623
+Valid recall:  0.4359110169491525
+Valid f1:  0.5127725856697819
+Valid AUC:  0.8696124861379099
+Valid AUPRC:  0.5706901438752792
+Valid mcc:  0.45509557213464863
+
+========== Train epoch 40 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3405511613642232
+Train binary acc:  0.8826386154394255
+Train AUC:  0.8907958250373531
+Train AUPRC:  0.6535613614285554
+========== Evaluate Valid set ==========
+Valid loss:  0.3503808715005419
+Valid binary acc:  0.8700007765783956
+Valid precision:  0.5557291666666667
+Valid recall:  0.5651483050847458
+Valid f1:  0.5603991596638656
+Valid AUC:  0.8683080229690399
+Valid AUPRC:  0.5702650040135813
+Valid mcc:  0.48415088504799253
+
+========== Train epoch 41 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34268797281083097
+Train binary acc:  0.8719318970204947
+Train AUC:  0.8902177938524001
+Train AUPRC:  0.6512912329864254
+========== Evaluate Valid set ==========
+Valid loss:  0.36668642677033125
+Valid binary acc:  0.8561776811369107
+Valid precision:  0.507846556233653
+Valid recall:  0.6170550847457628
+Valid f1:  0.5571496891439504
+Valid AUC:  0.864571548628752
+Valid AUPRC:  0.5699710645225983
+Valid mcc:  0.47545453783917613
+
+========== Train epoch 42 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34637359705533877
+Train binary acc:  0.8885076222084716
+Train AUC:  0.8956836781313233
+Train AUPRC:  0.6649894451827771
+========== Evaluate Valid set ==========
+Valid loss:  0.3407434807784522
+Valid binary acc:  0.8747379047914887
+Valid precision:  0.5878594249201278
+Valid recall:  0.4872881355932203
+Valid f1:  0.5328699681436432
+Valid AUC:  0.868043553954571
+Valid AUPRC:  0.5709549762106351
+Valid mcc:  0.46397904223188174
+
+========== Train epoch 43 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3507955494277486
+Train binary acc:  0.8832011400498772
+Train AUC:  0.8910878274042814
+Train AUPRC:  0.6508218419022078
+========== Evaluate Valid set ==========
+Valid loss:  0.3486827287211347
+Valid binary acc:  0.8806399005979654
+Valid precision:  0.6522116218560278
+Valid recall:  0.3983050847457627
+Valid f1:  0.49457415323906617
+Valid AUC:  0.8669742787857194
+Valid AUPRC:  0.5620061066076028
+Valid mcc:  0.4482424141206739
+
+========== Train epoch 44 ==========
+========== Evaluate Train set ==========
+Train loss:  0.33990920622473797
+Train binary acc:  0.8780821660947666
+Train AUC:  0.8538662670460031
+Train AUPRC:  0.6016981369476959
+========== Evaluate Valid set ==========
+Valid loss:  0.3839842723821526
+Valid binary acc:  0.8723305117651627
+Valid precision:  0.5996732026143791
+Valid recall:  0.388771186440678
+Valid f1:  0.4717223650385604
+Valid AUC:  0.8387581533767974
+Valid AUPRC:  0.5368120873914497
+Valid mcc:  0.41510462346059346
+
+========== Train epoch 45 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3492154912109232
+Train binary acc:  0.8875700811910521
+Train AUC:  0.8957510671474791
+Train AUPRC:  0.6698696390405102
+========== Evaluate Valid set ==========
+Valid loss:  0.3486875837196165
+Valid binary acc:  0.8716315912091326
+Valid precision:  0.5642427556041553
+Valid recall:  0.5466101694915254
+Valid f1:  0.5552865213882163
+Valid AUC:  0.8681277579582664
+Valid AUPRC:  0.5815254724871374
+Valid mcc:  0.48038105028092354
+
+========== Train epoch 46 ==========
+========== Evaluate Train set ==========
+Train loss:  0.337471247863457
+Train binary acc:  0.8823948547748964
+Train AUC:  0.8909466709931513
+Train AUPRC:  0.6597686896408168
+========== Evaluate Valid set ==========
+Valid loss:  0.3434661083034615
+Valid binary acc:  0.86969014522016
+Valid precision:  0.5557324840764332
+Valid recall:  0.5545550847457628
+Valid f1:  0.5551431601272535
+Valid AUC:  0.8729793931065117
+Valid AUPRC:  0.582993823911157
+Valid mcc:  0.4788084469094803
+
+========== Train epoch 47 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3377428742941846
+Train binary acc:  0.8875513303707038
+Train AUC:  0.8965979713289907
+Train AUPRC:  0.671378799424097
+========== Evaluate Valid set ==========
+Valid loss:  0.3561512215146378
+Valid binary acc:  0.8803292692397298
+Valid precision:  0.6556053811659193
+Valid recall:  0.3871822033898305
+Valid f1:  0.4868464868464869
+Valid AUC:  0.8727553150222642
+Valid AUPRC:  0.5841749279918088
+Valid mcc:  0.44303544641253106
+
+========== Train epoch 48 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3274766570619876
+Train binary acc:  0.8882451107235941
+Train AUC:  0.8981943422743409
+Train AUPRC:  0.67125635689424
+========== Evaluate Valid set ==========
+Valid loss:  0.33828177125151476
+Valid binary acc:  0.8775335870156092
+Valid precision:  0.6279835390946502
+Valid recall:  0.4041313559322034
+Valid f1:  0.49178214631002265
+Valid AUC:  0.8726447219561626
+Valid AUPRC:  0.5841193938457685
+Valid mcc:  0.4392494530861305
+
+========== Train epoch 49 ==========
+========== Evaluate Train set ==========
+Train loss:  0.330886802674456
+Train binary acc:  0.8877950910352328
+Train AUC:  0.9000770756597625
+Train AUPRC:  0.6778877071397877
+========== Evaluate Valid set ==========
+Valid loss:  0.3455298500719355
+Valid binary acc:  0.8823483730682612
+Valid precision:  0.67381174277726
+Valid recall:  0.3829449152542373
+Valid f1:  0.4883485309017223
+Valid AUC:  0.8719789222967188
+Valid AUPRC:  0.5834412491243972
+Valid mcc:  0.4493555610323362
+
+========== Train epoch 50 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3231415487128251
+Train binary acc:  0.8887513828730007
+Train AUC:  0.9000879295849342
+Train AUPRC:  0.67811254757308
+========== Evaluate Valid set ==========
+Valid loss:  0.35093193745879986
+Valid binary acc:  0.8776112448551682
+Valid precision:  0.5930787589498807
+Valid recall:  0.5264830508474576
+Valid f1:  0.5578002244668911
+Valid AUC:  0.8735988251348421
+Valid AUPRC:  0.5898848232589062
+Valid mcc:  0.4882323078907411
+
+
+========== Fold 4 ==========
+Train on 267 samples, validate on 67 samples
+
+========== Train epoch 1 ==========
+========== Evaluate Train set ==========
+Train loss:  0.4790341054343999
+Train binary acc:  0.8510417614411792
+Train AUC:  0.7449989938832247
+Train AUPRC:  0.35769106482679175
+========== Evaluate Valid set ==========
+Valid loss:  0.5013499838202747
+Valid binary acc:  0.8143606149471252
+Valid precision:  0.7272727272727273
+Valid recall:  0.007622677465459742
+Valid f1:  0.015087223008015085
+Valid AUC:  0.7410379777587943
+Valid AUPRC:  0.40160227638389506
+Valid mcc:  0.061439975807690034
+
+========== Train epoch 2 ==========
+========== Evaluate Train set ==========
+Train loss:  0.43889131416542254
+Train binary acc:  0.8587753616595396
+Train AUC:  0.7907424814372274
+Train AUPRC:  0.42776491302163305
+========== Evaluate Valid set ==========
+Valid loss:  0.4693564452342133
+Valid binary acc:  0.8283124500133298
+Valid precision:  0.7262872628726287
+Valid recall:  0.1276798475464507
+Valid f1:  0.21717990275526744
+Valid AUC:  0.7872856941667136
+Valid AUPRC:  0.48216654916616236
+Valid mcc:  0.25513828759852486
+
+========== Train epoch 3 ==========
+========== Evaluate Train set ==========
+Train loss:  0.4401700892363595
+Train binary acc:  0.8563006095896643
+Train AUC:  0.7700062670963777
+Train AUPRC:  0.3956547621239762
+========== Evaluate Valid set ==========
+Valid loss:  0.46817320807656243
+Valid binary acc:  0.8233359992890784
+Valid precision:  0.6472148541114059
+Valid recall:  0.11624583134826108
+Valid f1:  0.19709208400646205
+Valid AUC:  0.7639528764230458
+Valid AUPRC:  0.4394514154973466
+Valid mcc:  0.22019046367154158
+
+========== Train epoch 4 ==========
+========== Evaluate Train set ==========
+Train loss:  0.4194519462880124
+Train binary acc:  0.8647802747702665
+Train AUC:  0.830605769041418
+Train AUPRC:  0.49408998972665163
+========== Evaluate Valid set ==========
+Valid loss:  0.41916605274179086
+Valid binary acc:  0.837110103972274
+Valid precision:  0.655011655011655
+Valid recall:  0.26774654597427344
+Valid f1:  0.3801149814000676
+Valid AUC:  0.8224312575159077
+Valid AUPRC:  0.5335521950743176
+Valid mcc:  0.34552736774772014
+
+========== Train epoch 5 ==========
+========== Evaluate Train set ==========
+Train loss:  0.40410744797870907
+Train binary acc:  0.8682376489855336
+Train AUC:  0.8336224302489412
+Train AUPRC:  0.522457597225583
+========== Evaluate Valid set ==========
+Valid loss:  0.4229650526349224
+Valid binary acc:  0.8453745667821914
+Valid precision:  0.7835703001579779
+Valid recall:  0.23630300142925204
+Valid f1:  0.3631039531478771
+Valid AUC:  0.824006052592436
+Valid AUPRC:  0.5661496393339176
+Valid mcc:  0.37419787513644437
+
+========== Train epoch 6 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3935297591967529
+Train binary acc:  0.8718587935583659
+Train AUC:  0.8407919874135433
+Train AUPRC:  0.5302176193237211
+========== Evaluate Valid set ==========
+Valid loss:  0.4054204841603094
+Valid binary acc:  0.8467075446547587
+Valid precision:  0.6900406504065041
+Valid recall:  0.3234873749404478
+Valid f1:  0.44048005189750244
+Valid AUC:  0.8320623666419176
+Valid AUPRC:  0.5669612299059062
+Valid mcc:  0.4001294086940568
+
+========== Train epoch 7 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3847777847940109
+Train binary acc:  0.8604676553543809
+Train AUC:  0.8329415233038833
+Train AUPRC:  0.5044273062244728
+========== Evaluate Valid set ==========
+Valid loss:  0.4174540552185543
+Valid binary acc:  0.8350662045676709
+Valid precision:  0.5833905284831846
+Valid recall:  0.40495474035254886
+Valid f1:  0.4780652418447694
+Valid AUC:  0.8239607736884395
+Valid AUPRC:  0.537747935120205
+Valid mcc:  0.3929181474636621
+
+========== Train epoch 8 ==========
+========== Evaluate Train set ==========
+Train loss:  0.38102992294767823
+Train binary acc:  0.8729505959421344
+Train AUC:  0.8482850808819711
+Train AUPRC:  0.5457552949606219
+========== Evaluate Valid set ==========
+Valid loss:  0.4081506758038677
+Valid binary acc:  0.845107971207678
+Valid precision:  0.6991051454138703
+Valid recall:  0.2977608384945212
+Valid f1:  0.417641162712997
+Valid AUC:  0.8367702276737792
+Valid AUPRC:  0.5750898415250218
+Valid mcc:  0.3865678173596781
+
+========== Train epoch 9 ==========
+========== Evaluate Train set ==========
+Train loss:  0.38868114282464267
+Train binary acc:  0.8619779819852607
+Train AUC:  0.8465389445203297
+Train AUPRC:  0.5332611049666769
+========== Evaluate Valid set ==========
+Valid loss:  0.4662950219058279
+Valid binary acc:  0.8291122367368702
+Valid precision:  0.7875816993464052
+Valid recall:  0.11481657932348738
+Valid f1:  0.20041580041580043
+Valid AUC:  0.8281989831919504
+Valid AUPRC:  0.560419628658234
+Valid mcc:  0.2579782233371672
+
+========== Train epoch 10 ==========
+========== Evaluate Train set ==========
+Train loss:  0.37263764533099164
+Train binary acc:  0.8754617414248022
+Train AUC:  0.8565913223614414
+Train AUPRC:  0.5574352358595891
+========== Evaluate Valid set ==========
+Valid loss:  0.39671344321165514
+Valid binary acc:  0.8481293877188305
+Valid precision:  0.6731793960923623
+Valid recall:  0.3611243449261553
+Valid f1:  0.470077519379845
+Valid AUC:  0.8408893328418924
+Valid AUPRC:  0.5839645583474291
+Valid mcc:  0.4165847584576466
+
+========== Train epoch 11 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3801520359929135
+Train binary acc:  0.8763351833318169
+Train AUC:  0.8625815137922246
+Train AUPRC:  0.5659162894868826
+========== Evaluate Valid set ==========
+Valid loss:  0.39817876290919174
+Valid binary acc:  0.851861725762019
+Valid precision:  0.6862068965517242
+Valid recall:  0.3792282039066222
+Valid f1:  0.4884934028843203
+Valid AUC:  0.8566503468312001
+Valid AUPRC:  0.5984374753857554
+Valid mcc:  0.4348770401906946
+
+========== Train epoch 12 ==========
+========== Evaluate Train set ==========
+Train loss:  0.376662669305721
+Train binary acc:  0.8713310890728778
+Train AUC:  0.8575350470073546
+Train AUPRC:  0.5713696636156192
+========== Evaluate Valid set ==========
+Valid loss:  0.40684380549103466
+Valid binary acc:  0.8468852750377677
+Valid precision:  0.7974683544303798
+Valid recall:  0.2401143401619819
+Valid f1:  0.3690955693885024
+Valid AUC:  0.8502848875776859
+Valid AUPRC:  0.6100931257272472
+Valid mcc:  0.38258793162650534
+
+========== Train epoch 13 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3718037889914566
+Train binary acc:  0.8679283049767992
+Train AUC:  0.8566468111945171
+Train AUPRC:  0.5586221757792316
+========== Evaluate Valid set ==========
+Valid loss:  0.3965220602590646
+Valid binary acc:  0.852394916911046
+Valid precision:  0.6220735785953178
+Valid recall:  0.531681753215817
+Valid f1:  0.5733367582840996
+Valid AUC:  0.8528031232659351
+Valid AUPRC:  0.6068309704078944
+Valid mcc:  0.48694378219991663
+
+========== Train epoch 14 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3643592878729663
+Train binary acc:  0.8785005913929579
+Train AUC:  0.8623003392742082
+Train AUPRC:  0.5750808492399372
+========== Evaluate Valid set ==========
+Valid loss:  0.40135248294517173
+Valid binary acc:  0.8531947036345864
+Valid precision:  0.7264437689969605
+Valid recall:  0.3415912339209147
+Valid f1:  0.46467919637070637
+Valid AUC:  0.8630315756340375
+Valid AUPRC:  0.6191408505584198
+Valid mcc:  0.4297744309975499
+
+========== Train epoch 15 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3736469056387519
+Train binary acc:  0.8762805932126285
+Train AUC:  0.866029844754495
+Train AUPRC:  0.5715250896328345
+========== Evaluate Valid set ==========
+Valid loss:  0.39321083119556083
+Valid binary acc:  0.8485737136763529
+Valid precision:  0.7046632124352331
+Valid recall:  0.3239637922820391
+Valid f1:  0.4438642297650131
+Valid AUC:  0.852833699537312
+Valid AUPRC:  0.5935075943103523
+Valid mcc:  0.4073783092113357
+
+========== Train epoch 16 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36874604495835217
+Train binary acc:  0.8804658356837413
+Train AUC:  0.8689526793424786
+Train AUPRC:  0.5914252647036838
+========== Evaluate Valid set ==========
+Valid loss:  0.39529476348143905
+Valid binary acc:  0.8595929974229094
+Valid precision:  0.7223650385604113
+Valid recall:  0.4016198189614102
+Valid f1:  0.5162278015921616
+Valid AUC:  0.8660388755301665
+Valid AUPRC:  0.6340148960600612
+Valid mcc:  0.46791319426496253
+
+========== Train epoch 17 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36234218021680353
+Train binary acc:  0.8786279683377308
+Train AUC:  0.8717988461534643
+Train AUPRC:  0.5902705167937925
+========== Evaluate Valid set ==========
+Valid loss:  0.4180512214774516
+Valid binary acc:  0.8510619390384786
+Valid precision:  0.6390532544378699
+Valid recall:  0.4630776560266794
+Valid f1:  0.5370165745856352
+Valid AUC:  0.8618369411945698
+Valid AUPRC:  0.614997873742871
+Valid mcc:  0.45926461775512906
+
+========== Train epoch 18 ==========
+========== Evaluate Train set ==========
+Train loss:  0.35994127521130925
+Train binary acc:  0.8789919024656537
+Train AUC:  0.8696495419581723
+Train AUPRC:  0.5875194755929193
+========== Evaluate Valid set ==========
+Valid loss:  0.40540816912900157
+Valid binary acc:  0.8468852750377677
+Valid precision:  0.6995753715498938
+Valid recall:  0.31395902810862314
+Valid f1:  0.4334100624794475
+Valid AUC:  0.8531407113242956
+Valid AUPRC:  0.5937285937689214
+Valid mcc:  0.3980972148266103
+
+========== Train epoch 19 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3642816369453173
+Train binary acc:  0.8833409152943317
+Train AUC:  0.8742703522491828
+Train AUPRC:  0.6049909857328319
+========== Evaluate Valid set ==========
+Valid loss:  0.3731908268892943
+Valid binary acc:  0.8608371101039722
+Valid precision:  0.6963890935887989
+Valid recall:  0.45021438780371603
+Valid f1:  0.5468749999999999
+Valid AUC:  0.8654093166081043
+Valid AUPRC:  0.6305707819358692
+Valid mcc:  0.48469503130030933
+
+========== Train epoch 20 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36325384495075275
+Train binary acc:  0.8753707578928214
+Train AUC:  0.8546098463545317
+Train AUPRC:  0.5621044822357733
+========== Evaluate Valid set ==========
+Valid loss:  0.4903706390021452
+Valid binary acc:  0.848751444059362
+Valid precision:  0.7278989667049368
+Valid recall:  0.3020485945688423
+Valid f1:  0.42693602693602695
+Valid AUC:  0.8555982368498873
+Valid AUPRC:  0.6022557189932449
+Valid mcc:  0.40255028856648883
+
+========== Train epoch 21 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3583821144220088
+Train binary acc:  0.868674369939041
+Train AUC:  0.8704334513327072
+Train AUPRC:  0.5999811347597328
+========== Evaluate Valid set ==========
+Valid loss:  0.3978896258927103
+Valid binary acc:  0.845107971207678
+Valid precision:  0.5802524797114518
+Valid recall:  0.6131491186279181
+Valid f1:  0.5962473940236276
+Valid AUC:  0.8644496900893222
+Valid AUPRC:  0.6190591441900181
+Valid mcc:  0.50080160837399
+
+========== Train epoch 22 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36088937786076397
+Train binary acc:  0.8827586206896552
+Train AUC:  0.8743602263320714
+Train AUPRC:  0.6099782747139617
+========== Evaluate Valid set ==========
+Valid loss:  0.42620261525040243
+Valid binary acc:  0.8529281080600729
+Valid precision:  0.7346723044397463
+Valid recall:  0.3311100524059076
+Valid f1:  0.45648604269293924
+Valid AUC:  0.8692801684749951
+Valid AUPRC:  0.6334244689753431
+Valid mcc:  0.4263153324024178
+
+========== Train epoch 23 ==========
+========== Evaluate Train set ==========
+Train loss:  0.35721412700102123
+Train binary acc:  0.8803020653261759
+Train AUC:  0.8767221801175578
+Train AUPRC:  0.6055086519573419
+========== Evaluate Valid set ==========
+Valid loss:  0.3849461149813524
+Valid binary acc:  0.8537278947836132
+Valid precision:  0.6432637571157496
+Valid recall:  0.4845164363982849
+Valid f1:  0.5527173913043478
+Valid AUC:  0.8660505855915449
+Valid AUPRC:  0.621655234431425
+Valid mcc:  0.4740557455452629
+
+========== Train epoch 24 ==========
+========== Evaluate Train set ==========
+Train loss:  0.35190482510163096
+Train binary acc:  0.8818123919570557
+Train AUC:  0.8725241522207776
+Train AUPRC:  0.6016018391116442
+========== Evaluate Valid set ==========
+Valid loss:  0.449609057004772
+Valid binary acc:  0.8543499511241447
+Valid precision:  0.6949152542372882
+Valid recall:  0.39066222010481183
+Valid f1:  0.5001524855138761
+Valid AUC:  0.8586635666057361
+Valid AUPRC:  0.6167155795374903
+Valid mcc:  0.4466968135102592
+
+========== Train epoch 25 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34795040796312054
+Train binary acc:  0.8730233827677191
+Train AUC:  0.8707313286313445
+Train AUPRC:  0.6019109292927332
+========== Evaluate Valid set ==========
+Valid loss:  0.4288382485731324
+Valid binary acc:  0.8464409490802453
+Valid precision:  0.7867078825347759
+Valid recall:  0.24249642686993805
+Valid f1:  0.370721048798252
+Valid AUC:  0.8561821265325738
+Valid AUPRC:  0.6218689360799796
+Valid mcc:  0.38055232700762354
+
+========== Train epoch 26 ==========
+========== Evaluate Train set ==========
+Train loss:  0.35606580378299346
+Train binary acc:  0.8849058320444
+Train AUC:  0.8794821876064324
+Train AUPRC:  0.6159269893030946
+========== Evaluate Valid set ==========
+Valid loss:  0.41427737863650965
+Valid binary acc:  0.8614591664445037
+Valid precision:  0.7445652173913043
+Valid recall:  0.3916150547879943
+Valid f1:  0.5132688104901655
+Valid AUC:  0.8744509672666833
+Valid AUPRC:  0.6445426052025872
+Valid mcc:  0.4724900765353434
+
+========== Train epoch 27 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3556375401408485
+Train binary acc:  0.8814120644163407
+Train AUC:  0.8802728729437006
+Train AUPRC:  0.6182717746469044
+========== Evaluate Valid set ==========
+Valid loss:  0.38903594328396357
+Valid binary acc:  0.8527503776770639
+Valid precision:  0.7885117493472585
+Valid recall:  0.2877560743211053
+Valid f1:  0.42164048865619547
+Valid AUC:  0.8688110894385344
+Valid AUPRC:  0.6320183919007982
+Valid mcc:  0.41766697534439656
+
+========== Train epoch 28 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34865033877699564
+Train binary acc:  0.8835410790646893
+Train AUC:  0.8782446681307041
+Train AUPRC:  0.6093887433810872
+========== Evaluate Valid set ==========
+Valid loss:  0.3799955484582417
+Valid binary acc:  0.8551497378476851
+Valid precision:  0.754614549402823
+Valid recall:  0.3311100524059076
+Valid f1:  0.4602649006622517
+Valid AUC:  0.8706259147509614
+Valid AUPRC:  0.6317784757750204
+Valid mcc:  0.43542036770471226
+
+========== Train epoch 29 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3513100736317563
+Train binary acc:  0.8849240287507961
+Train AUC:  0.8775880805901486
+Train AUPRC:  0.6197632135645399
+========== Evaluate Valid set ==========
+Valid loss:  0.3654371863648073
+Valid binary acc:  0.8611037056784857
+Valid precision:  0.6589561091340451
+Valid recall:  0.5292996665078609
+Valid f1:  0.5870541611624834
+Valid AUC:  0.8795538216800179
+Valid AUPRC:  0.6505685098704401
+Valid mcc:  0.509135335766102
+
+========== Train epoch 30 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34355028124337783
+Train binary acc:  0.8843053407333272
+Train AUC:  0.8779629232104558
+Train AUPRC:  0.6062902913834393
+========== Evaluate Valid set ==========
+Valid loss:  0.3939788285920869
+Valid binary acc:  0.8552386030391895
+Valid precision:  0.6777609682299546
+Valid recall:  0.4268699380657456
+Valid f1:  0.5238234434375914
+Valid AUC:  0.8644295487837513
+Valid AUPRC:  0.6120131606430101
+Valid mcc:  0.46011178325798563
+
+========== Train epoch 31 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3485432192404172
+Train binary acc:  0.8809935401692294
+Train AUC:  0.8825995358521399
+Train AUPRC:  0.6341827313019519
+========== Evaluate Valid set ==========
+Valid loss:  0.4454868718314527
+Valid binary acc:  0.8493735003998933
+Valid precision:  0.7902298850574713
+Valid recall:  0.26202953787517863
+Valid f1:  0.39355992844364934
+Valid AUC:  0.8780086140252394
+Valid AUPRC:  0.6483632081105448
+Valid mcc:  0.3979362563267255
+
+========== Train epoch 32 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3548082983337538
+Train binary acc:  0.8763897734510053
+Train AUC:  0.8803084080932296
+Train AUPRC:  0.6179311101333516
+========== Evaluate Valid set ==========
+Valid loss:  0.5087032720668992
+Valid binary acc:  0.8475961965698036
+Valid precision:  0.7774566473988439
+Valid recall:  0.2563125297760839
+Valid f1:  0.3855249014690076
+Valid AUC:  0.8670365727596077
+Valid AUPRC:  0.6331727588134861
+Valid mcc:  0.3883221725659683
+
+========== Train epoch 33 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3491793339897631
+Train binary acc:  0.8893458284050587
+Train AUC:  0.8882366651924909
+Train AUPRC:  0.6393283009847757
+========== Evaluate Valid set ==========
+Valid loss:  0.37765197455883026
+Valid binary acc:  0.862614413934062
+Valid precision:  0.7002172338884866
+Valid recall:  0.4606955693187232
+Valid f1:  0.5557471264367816
+Valid AUC:  0.878984920875896
+Valid AUPRC:  0.6500095052015836
+Valid mcc:  0.4932321122558784
+
+========== Train epoch 34 ==========
+========== Evaluate Train set ==========
+Train loss:  0.35098132295778184
+Train binary acc:  0.8883995996724593
+Train AUC:  0.8842181372910409
+Train AUPRC:  0.635771042242782
+========== Evaluate Valid set ==========
+Valid loss:  0.3645876331338242
+Valid binary acc:  0.8648360437216742
+Valid precision:  0.6934404283801874
+Valid recall:  0.4935683658885183
+Valid f1:  0.5766768716949624
+Valid AUC:  0.8824134707133447
+Valid AUPRC:  0.6545685168367665
+Valid mcc:  0.5091692796084396
+
+========== Train epoch 35 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3490047712395254
+Train binary acc:  0.8816850150122828
+Train AUC:  0.8882069782899922
+Train AUPRC:  0.635608060224443
+========== Evaluate Valid set ==========
+Valid loss:  0.36688928239381136
+Valid binary acc:  0.8583488847418467
+Valid precision:  0.630221763795771
+Valid recall:  0.5821819914244879
+Valid f1:  0.605250123823675
+Valid AUC:  0.880674162285629
+Valid AUPRC:  0.6490456887587572
+Valid mcc:  0.5197095792166393
+
+========== Train epoch 36 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34932899550440605
+Train binary acc:  0.8845600946228732
+Train AUC:  0.8854219991371153
+Train AUPRC:  0.6350001763083309
+========== Evaluate Valid set ==========
+Valid loss:  0.37178174628695443
+Valid binary acc:  0.8651026392961877
+Valid precision:  0.6809968847352025
+Valid recall:  0.5207241543592187
+Valid f1:  0.5901727861771059
+Valid AUC:  0.8831210967112632
+Valid AUPRC:  0.6648024768449258
+Valid mcc:  0.5177432578500024
+
+========== Train epoch 37 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3469200020983871
+Train binary acc:  0.8913474661086344
+Train AUC:  0.8900799804236915
+Train AUPRC:  0.6417053573059834
+========== Evaluate Valid set ==========
+Valid loss:  0.36606525596398026
+Valid binary acc:  0.8690127077223851
+Valid precision:  0.7171646977067407
+Valid recall:  0.4916626965221534
+Valid f1:  0.5833804409270774
+Valid AUC:  0.8827692744227381
+Valid AUPRC:  0.6586203524360235
+Valid mcc:  0.5216284462540176
+
+========== Train epoch 38 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3461569668760014
+Train binary acc:  0.8851787826403421
+Train AUC:  0.8843007559614843
+Train AUPRC:  0.6332294095511768
+========== Evaluate Valid set ==========
+Valid loss:  0.3667907333418505
+Valid binary acc:  0.8642139873811429
+Valid precision:  0.6604834176503653
+Valid recall:  0.5597903763696999
+Valid f1:  0.6059824651882413
+Valid AUC:  0.8793071036979542
+Valid AUPRC:  0.6494910393942335
+Valid mcc:  0.5272485419701564
+
+========== Train epoch 39 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34086044408966987
+Train binary acc:  0.8929123828587026
+Train AUC:  0.8906184960015426
+Train AUPRC:  0.6513405246342515
+========== Evaluate Valid set ==========
+Valid loss:  0.35678236375548944
+Valid binary acc:  0.8679463254243313
+Valid precision:  0.720662347012239
+Valid recall:  0.47689375893282515
+Valid f1:  0.5739678899082569
+Valid AUC:  0.8820011724633899
+Valid AUPRC:  0.663632949736626
+Valid mcc:  0.5145548929707567
+
+========== Train epoch 40 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3512294568149338
+Train binary acc:  0.8900009098353198
+Train AUC:  0.890611775909643
+Train AUPRC:  0.6439589176295549
+========== Evaluate Valid set ==========
+Valid loss:  0.3800498190433232
+Valid binary acc:  0.8630587398915844
+Valid precision:  0.7336683417085427
+Valid recall:  0.4173415912339209
+Valid f1:  0.5320376556331613
+Valid AUC:  0.8815135915299512
+Valid AUPRC:  0.6540524116810735
+Valid mcc:  0.48392728885159825
+
+========== Train epoch 41 ==========
+========== Evaluate Train set ==========
+Train loss:  0.33897661520970446
+Train binary acc:  0.8916204167045765
+Train AUC:  0.8913418335964607
+Train AUPRC:  0.6508343133593026
+========== Evaluate Valid set ==========
+Valid loss:  0.36321493304932295
+Valid binary acc:  0.866613347551764
+Valid precision:  0.7241379310344828
+Valid recall:  0.460219151977132
+Valid f1:  0.5627730847655112
+Valid AUC:  0.8812496727688404
+Valid AUPRC:  0.6541911722212836
+Valid mcc:  0.5061367452358831
+
+========== Train epoch 42 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34116231284561227
+Train binary acc:  0.8844873077972887
+Train AUC:  0.8833443642281911
+Train AUPRC:  0.620970000796821
+========== Evaluate Valid set ==========
+Valid loss:  0.3889738156724332
+Valid binary acc:  0.85603838976273
+Valid precision:  0.7227906976744186
+Valid recall:  0.3701762744163888
+Valid f1:  0.4896030245746692
+Valid AUC:  0.867904158195955
+Valid AUPRC:  0.6229572594496702
+Valid mcc:  0.4474115723993996
+
+========== Train epoch 43 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3371272413862332
+Train binary acc:  0.8792102629424075
+Train AUC:  0.8850199980943627
+Train AUPRC:  0.6415344689011134
+========== Evaluate Valid set ==========
+Valid loss:  0.47651133341575735
+Valid binary acc:  0.848218252910335
+Valid precision:  0.8078740157480315
+Valid recall:  0.244402096236303
+Valid f1:  0.37527432333577176
+Valid AUC:  0.882175600333211
+Valid AUPRC:  0.6641286802366317
+Valid mcc:  0.3900817566507344
+
+========== Train epoch 44 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34522062852588037
+Train binary acc:  0.8881630424893094
+Train AUC:  0.8824887530842456
+Train AUPRC:  0.6368524703973276
+========== Evaluate Valid set ==========
+Valid loss:  0.3738264036712362
+Valid binary acc:  0.8601261885719363
+Valid precision:  0.7354260089686099
+Valid recall:  0.39066222010481183
+Valid f1:  0.5102675793403858
+Valid AUC:  0.8734456975308841
+Valid AUPRC:  0.6507860755879007
+Valid mcc:  0.46731482852675926
+
+========== Train epoch 45 ==========
+========== Evaluate Train set ==========
+Train loss:  0.33452333657817446
+Train binary acc:  0.8916568101173687
+Train AUC:  0.8879752598543378
+Train AUPRC:  0.6539716083858037
+========== Evaluate Valid set ==========
+Valid loss:  0.37396643043898825
+Valid binary acc:  0.862614413934062
+Valid precision:  0.7279472382522671
+Valid recall:  0.42067651262505956
+Valid f1:  0.5332125603864735
+Valid AUC:  0.8802969681974511
+Valid AUPRC:  0.653464826613686
+Valid mcc:  0.483118694910492
+
+========== Train epoch 46 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3388870513059673
+Train binary acc:  0.8901282867800928
+Train AUC:  0.8868869181031236
+Train AUPRC:  0.6451823515933928
+========== Evaluate Valid set ==========
+Valid loss:  0.365139075624409
+Valid binary acc:  0.8623478183595485
+Valid precision:  0.7272727272727273
+Valid recall:  0.41924726060028583
+Valid f1:  0.5318827440314294
+Valid AUC:  0.8768459090197972
+Valid AUPRC:  0.6447773558653378
+Valid mcc:  0.4818477806946381
+
+========== Train epoch 47 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3409274505653631
+Train binary acc:  0.888617960149213
+Train AUC:  0.8845495955593508
+Train AUPRC:  0.63740300790402
+========== Evaluate Valid set ==========
+Valid loss:  0.443586704668714
+Valid binary acc:  0.8618146272105216
+Valid precision:  0.7407079646017699
+Valid recall:  0.3987613149118628
+Valid f1:  0.518426757510065
+Valid AUC:  0.8746435066981031
+Valid AUPRC:  0.6320520211247534
+Valid mcc:  0.4753265143077646
+
+========== Train epoch 48 ==========
+========== Evaluate Train set ==========
+Train loss:  0.32207733166686603
+Train binary acc:  0.8944591029023746
+Train AUC:  0.8974197253449065
+Train AUPRC:  0.6743435285116488
+========== Evaluate Valid set ==========
+Valid loss:  0.36339245358509803
+Valid binary acc:  0.8658135608282236
+Valid precision:  0.7760074976569822
+Valid recall:  0.3944735588375417
+Valid f1:  0.5230574857864815
+Valid AUC:  0.8880903783578079
+Valid AUPRC:  0.6717577974045936
+Valid mcc:  0.4897852440643956
+
+========== Train epoch 49 ==========
+========== Evaluate Train set ==========
+Train loss:  0.31860102406155305
+Train binary acc:  0.8893640251114548
+Train AUC:  0.8938842995488916
+Train AUPRC:  0.663516576288822
+========== Evaluate Valid set ==========
+Valid loss:  0.35397543524628255
+Valid binary acc:  0.8639473918066294
+Valid precision:  0.6577777777777778
+Valid recall:  0.5640781324440209
+Valid f1:  0.6073352141574763
+Valid AUC:  0.8871016328197318
+Valid AUPRC:  0.6635635029165677
+Valid mcc:  0.5279091548626978
+
+========== Train epoch 50 ==========
+========== Evaluate Train set ==========
+Train loss:  0.32660211181819215
+Train binary acc:  0.8968246747338732
+Train AUC:  0.899104588293206
+Train AUPRC:  0.6778720507164617
+========== Evaluate Valid set ==========
+Valid loss:  0.3646654357661062
+Valid binary acc:  0.8665244823602595
+Valid precision:  0.7370929308975377
+Valid recall:  0.4421152929966651
+Valid f1:  0.5527099463966647
+Valid AUC:  0.8878834745844308
+Valid AUPRC:  0.6719968387145663
+Valid mcc:  0.5016587061833336
+
+
+========== Fold 5 ==========
+Train on 268 samples, validate on 66 samples
+
+========== Train epoch 1 ==========
+========== Evaluate Train set ==========
+Train loss:  0.504496617659704
+Train binary acc:  0.8415994304698624
+Train AUC:  0.7400272178418136
+Train AUPRC:  0.35796368279736507
+========== Evaluate Valid set ==========
+Valid loss:  0.4238392749067509
+Valid binary acc:  0.8558823529411764
+Valid precision:  0.6764705882352942
+Valid recall:  0.010150044130626656
+Valid f1:  0.02
+Valid AUC:  0.7285290015496865
+Valid AUPRC:  0.31937602183074654
+Valid mcc:  0.07049252470643287
+
+========== Train epoch 2 ==========
+========== Evaluate Train set ==========
+Train loss:  0.45956533847015296
+Train binary acc:  0.853484417022623
+Train AUC:  0.7950627460098275
+Train AUPRC:  0.4602878935159848
+========== Evaluate Valid set ==========
+Valid loss:  0.39053906432606955
+Valid binary acc:  0.8626598465473145
+Valid precision:  0.6038732394366197
+Valid recall:  0.15136804942630186
+Valid f1:  0.242060691601976
+Valid AUC:  0.7830139917910568
+Valid AUPRC:  0.4164698567194069
+Valid mcc:  0.2531433389895395
+
+========== Train epoch 3 ==========
+========== Evaluate Train set ==========
+Train loss:  0.4238362707086463
+Train binary acc:  0.8603069134630597
+Train AUC:  0.8255572840427567
+Train AUPRC:  0.5087767888418147
+========== Evaluate Valid set ==========
+Valid loss:  0.3652900726054654
+Valid binary acc:  0.8636828644501279
+Valid precision:  0.5725108225108225
+Valid recall:  0.23345101500441306
+Valid f1:  0.33166144200626957
+Valid AUC:  0.8087001514313383
+Valid AUPRC:  0.4497277102853178
+Valid mcc:  0.3044256528027394
+
+========== Train epoch 4 ==========
+========== Evaluate Train set ==========
+Train loss:  0.41870005823560613
+Train binary acc:  0.8541370036386647
+Train AUC:  0.8202675927369247
+Train AUPRC:  0.5127783490140839
+========== Evaluate Valid set ==========
+Valid loss:  0.4122048713492625
+Valid binary acc:  0.8611892583120204
+Valid precision:  0.6833976833976834
+Valid recall:  0.07811120917917035
+Valid f1:  0.14019801980198018
+Valid AUC:  0.7831469545247982
+Valid AUPRC:  0.4173062069282587
+Valid mcc:  0.19853164505735815
+
+========== Train epoch 5 ==========
+========== Evaluate Train set ==========
+Train loss:  0.4120785674330459
+Train binary acc:  0.8589819648789748
+Train AUC:  0.8180745119108455
+Train AUPRC:  0.5160266188952546
+========== Evaluate Valid set ==========
+Valid loss:  0.42962499685359723
+Valid binary acc:  0.8638746803069054
+Valid precision:  0.6492374727668845
+Valid recall:  0.13150926743159752
+Valid f1:  0.2187155963302752
+Valid AUC:  0.790562873043044
+Valid AUPRC:  0.4358733637267469
+Valid mcc:  0.24915322942488446
+
+========== Train epoch 6 ==========
+========== Evaluate Train set ==========
+Train loss:  0.40480257554063154
+Train binary acc:  0.8673271634235089
+Train AUC:  0.8432358140565315
+Train AUPRC:  0.5549352510503642
+========== Evaluate Valid set ==========
+Valid loss:  0.36041899905963376
+Valid binary acc:  0.8680306905370844
+Valid precision:  0.6124721603563474
+Valid recall:  0.24271844660194175
+Valid f1:  0.34766118836915294
+Valid AUC:  0.810847386565415
+Valid AUPRC:  0.46473763675688373
+Valid mcc:  0.32786779638408625
+
+========== Train epoch 7 ==========
+========== Evaluate Train set ==========
+Train loss:  0.39315372894504175
+Train binary acc:  0.865250751463376
+Train AUC:  0.8514910024485152
+Train AUPRC:  0.5617780463901956
+========== Evaluate Valid set ==========
+Valid loss:  0.3699080650553559
+Valid binary acc:  0.8663682864450127
+Valid precision:  0.5662650602409639
+Valid recall:  0.3318623124448367
+Valid f1:  0.4184752365052867
+Valid AUC:  0.8250653908051757
+Valid AUPRC:  0.4837685493356369
+Valid mcc:  0.36466919924872454
+
+========== Train epoch 8 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3891811550997976
+Train binary acc:  0.8680588514475558
+Train AUC:  0.8504198069121176
+Train AUPRC:  0.5678366782786511
+========== Evaluate Valid set ==========
+Valid loss:  0.4108392289190581
+Valid binary acc:  0.8685421994884911
+Valid precision:  0.6450276243093923
+Valid recall:  0.206090026478376
+Valid f1:  0.3123745819397994
+Valid AUC:  0.8214593602926784
+Valid AUPRC:  0.4842627552316144
+Valid mcc:  0.31304961829615613
+
+========== Train epoch 9 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3929195727930585
+Train binary acc:  0.8674853662395191
+Train AUC:  0.8570574237388122
+Train AUPRC:  0.5702675558832307
+========== Evaluate Valid set ==========
+Valid loss:  0.3483132196195198
+Valid binary acc:  0.8716751918158567
+Valid precision:  0.618698441796517
+Valid recall:  0.2978817299205649
+Valid f1:  0.4021447721179625
+Valid AUC:  0.8288773741412612
+Valid AUPRC:  0.4998137226682098
+Valid mcc:  0.3686204281043152
+
+========== Train epoch 10 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3903993911651978
+Train binary acc:  0.8611770289511154
+Train AUC:  0.8469251326529369
+Train AUPRC:  0.5514140926007274
+========== Evaluate Valid set ==========
+Valid loss:  0.38298487776156626
+Valid binary acc:  0.8622762148337596
+Valid precision:  0.5325581395348837
+Valid recall:  0.4042365401588703
+Valid f1:  0.45960863020572
+Valid AUC:  0.8217932272588024
+Valid AUPRC:  0.4823470706281951
+Valid mcc:  0.38715649903773597
+
+========== Train epoch 11 ==========
+========== Evaluate Train set ==========
+Train loss:  0.38421187633231507
+Train binary acc:  0.8479275431102674
+Train AUC:  0.8571766027563772
+Train AUPRC:  0.5663435042643016
+========== Evaluate Valid set ==========
+Valid loss:  0.395915519333247
+Valid binary acc:  0.8404731457800512
+Valid precision:  0.45454545454545453
+Valid recall:  0.5052956751985879
+Valid f1:  0.47857889237199586
+Valid AUC:  0.816231989563341
+Valid AUPRC:  0.46243203951394635
+Valid mcc:  0.38547181171447514
+
+========== Train epoch 12 ==========
+========== Evaluate Train set ==========
+Train loss:  0.38927611894905567
+Train binary acc:  0.8774323682961557
+Train AUC:  0.8692894899988879
+Train AUPRC:  0.6084897142881727
+========== Evaluate Valid set ==========
+Valid loss:  0.34827820166493906
+Valid binary acc:  0.8726982097186701
+Valid precision:  0.6001456664238893
+Valid recall:  0.36363636363636365
+Valid f1:  0.4528716680406706
+Valid AUC:  0.8244565076076661
+Valid AUPRC:  0.504924949026382
+Valid mcc:  0.40124098668279035
+
+========== Train epoch 13 ==========
+========== Evaluate Train set ==========
+Train loss:  0.37908837115809096
+Train binary acc:  0.8754943838000316
+Train AUC:  0.8667607668744874
+Train AUPRC:  0.6002686000017967
+========== Evaluate Valid set ==========
+Valid loss:  0.3543114935358365
+Valid binary acc:  0.8667519181585678
+Valid precision:  0.5747126436781609
+Valid recall:  0.3089143865842895
+Valid f1:  0.4018369690011481
+Valid AUC:  0.822787651238304
+Valid AUPRC:  0.49048763598434514
+Valid mcc:  0.3548799542799331
+
+========== Train epoch 14 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3790634048185242
+Train binary acc:  0.8734970732479038
+Train AUC:  0.8754056040424207
+Train AUPRC:  0.608677700596193
+========== Evaluate Valid set ==========
+Valid loss:  0.37305725952892593
+Valid binary acc:  0.8735933503836317
+Valid precision:  0.666283084004603
+Valid recall:  0.25551632833186233
+Valid f1:  0.369377990430622
+Valid AUC:  0.8380128659222205
+Valid AUPRC:  0.5166621242134772
+Valid mcc:  0.35929450992058964
+
+========== Train epoch 15 ==========
+========== Evaluate Train set ==========
+Train loss:  0.37020179003810705
+Train binary acc:  0.8692255972156304
+Train AUC:  0.8765629746378325
+Train AUPRC:  0.6190100079443563
+========== Evaluate Valid set ==========
+Valid loss:  0.362955794867241
+Valid binary acc:  0.8695652173913043
+Valid precision:  0.714828897338403
+Valid recall:  0.16593115622241836
+Valid f1:  0.2693409742120344
+Valid AUC:  0.8371210801318997
+Valid AUPRC:  0.5238465352332589
+Valid mcc:  0.30207269879644605
+
+========== Train epoch 16 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3723882343620062
+Train binary acc:  0.8710053788957444
+Train AUC:  0.868938095082308
+Train AUPRC:  0.6037814387226944
+========== Evaluate Valid set ==========
+Valid loss:  0.38975319988799817
+Valid binary acc:  0.8700127877237852
+Valid precision:  0.6888168557536467
+Valid recall:  0.18755516328331862
+Valid f1:  0.29483177245924386
+Valid AUC:  0.8292977766004331
+Valid AUPRC:  0.510452517078883
+Valid mcc:  0.3131734601564398
+
+========== Train epoch 17 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3761052962726177
+Train binary acc:  0.8738134788799241
+Train AUC:  0.862179370435276
+Train AUPRC:  0.5977718872482272
+========== Evaluate Valid set ==========
+Valid loss:  0.4494934255878131
+Valid binary acc:  0.8705242966751918
+Valid precision:  0.640279394644936
+Valid recall:  0.24271844660194175
+Valid f1:  0.35200000000000004
+Valid AUC:  0.8057322067517549
+Valid AUPRC:  0.4794251535020443
+Valid mcc:  0.33929071636045044
+
+========== Train epoch 18 ==========
+========== Evaluate Train set ==========
+Train loss:  0.37598426562191833
+Train binary acc:  0.8714404366397722
+Train AUC:  0.8669584567665054
+Train AUPRC:  0.597356993287025
+========== Evaluate Valid set ==========
+Valid loss:  0.34691239599928714
+Valid binary acc:  0.870460358056266
+Valid precision:  0.5769230769230769
+Valid recall:  0.3971756398940865
+Valid f1:  0.4704652378463147
+Valid AUC:  0.8238538279078467
+Valid AUPRC:  0.5053323827495825
+Valid mcc:  0.40856317758796673
+
+========== Train epoch 19 ==========
+========== Evaluate Train set ==========
+Train loss:  0.37298449087165186
+Train binary acc:  0.8763249485840848
+Train AUC:  0.8729042384267314
+Train AUPRC:  0.6079477140615792
+========== Evaluate Valid set ==========
+Valid loss:  0.35089494265390164
+Valid binary acc:  0.8739130434782608
+Valid precision:  0.6072992700729927
+Valid recall:  0.36716681376875554
+Valid f1:  0.4576457645764576
+Valid AUC:  0.8356196522055215
+Valid AUPRC:  0.519963071199448
+Valid mcc:  0.4070574855149216
+
+========== Train epoch 20 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3651799275192307
+Train binary acc:  0.875889890840057
+Train AUC:  0.8820377901885957
+Train AUPRC:  0.6307181236846267
+========== Evaluate Valid set ==========
+Valid loss:  0.3522178187514796
+Valid binary acc:  0.8683503836317136
+Valid precision:  0.5525647536820721
+Valid recall:  0.4801412180052957
+Valid f1:  0.5138134592680047
+Valid AUC:  0.8313407236789223
+Valid AUPRC:  0.530382233665289
+Valid mcc:  0.439559926633935
+
+========== Train epoch 21 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3670708517363267
+Train binary acc:  0.8658044613194115
+Train AUC:  0.8718470095800994
+Train AUPRC:  0.5952485864555013
+========== Evaluate Valid set ==========
+Valid loss:  0.36453386847720004
+Valid binary acc:  0.8643222506393862
+Valid precision:  0.5378548895899053
+Valid recall:  0.45145631067961167
+Valid f1:  0.4908829174664108
+Valid AUC:  0.8368886304538148
+Valid AUPRC:  0.5135665267226929
+Valid mcc:  0.41541197392186185
+
+========== Train epoch 22 ==========
+========== Evaluate Train set ==========
+Train loss:  0.37757429149724653
+Train binary acc:  0.8798845119443126
+Train AUC:  0.8814399662979986
+Train AUPRC:  0.63049806467841
+========== Evaluate Valid set ==========
+Valid loss:  0.33894715119491925
+Valid binary acc:  0.8746163682864451
+Valid precision:  0.6055363321799307
+Valid recall:  0.3861429832303619
+Valid f1:  0.4715710051199138
+Valid AUC:  0.8338070594747803
+Valid AUPRC:  0.5245400896298501
+Valid mcc:  0.41755604702255916
+
+========== Train epoch 23 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36076903535025334
+Train binary acc:  0.8766809049201075
+Train AUC:  0.8763262173777928
+Train AUPRC:  0.6097606472649391
+========== Evaluate Valid set ==========
+Valid loss:  0.3980564543920936
+Valid binary acc:  0.8709079283887468
+Valid precision:  0.6006519967400163
+Valid recall:  0.32524271844660196
+Valid f1:  0.4219868308044661
+Valid AUC:  0.828822103616626
+Valid AUPRC:  0.5093445687805152
+Valid mcc:  0.37780193982296434
+
+========== Train epoch 24 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3664203094902323
+Train binary acc:  0.8813676633444075
+Train AUC:  0.8792008245537088
+Train AUPRC:  0.6240350937722806
+========== Evaluate Valid set ==========
+Valid loss:  0.35323960582415265
+Valid binary acc:  0.8741048593350383
+Valid precision:  0.6139677666922486
+Valid recall:  0.353045013239188
+Valid f1:  0.44830484729616144
+Valid AUC:  0.8194778707378506
+Valid AUPRC:  0.5079760873401633
+Valid mcc:  0.40176191240473846
+
+========== Train epoch 25 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36822658793917346
+Train binary acc:  0.8797856351843063
+Train AUC:  0.8830712435888083
+Train AUPRC:  0.6302962749450971
+========== Evaluate Valid set ==========
+Valid loss:  0.34595030151081807
+Valid binary acc:  0.8744245524296675
+Valid precision:  0.5905275779376499
+Valid recall:  0.4346866725507502
+Valid f1:  0.5007625826131165
+Valid AUC:  0.8424635950377827
+Valid AUPRC:  0.5313517672069156
+Valid mcc:  0.43745323879563836
+
+========== Train epoch 26 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36280602947878304
+Train binary acc:  0.8839780098085745
+Train AUC:  0.8832438357183715
+Train AUPRC:  0.6386528761643039
+========== Evaluate Valid set ==========
+Valid loss:  0.40084708256251883
+Valid binary acc:  0.8736572890025576
+Valid precision:  0.601115760111576
+Valid recall:  0.38040600176522504
+Valid f1:  0.4659459459459459
+Valid AUC:  0.8187607893013686
+Valid AUPRC:  0.515447725959583
+Valid mcc:  0.41181243399378115
+
+========== Train epoch 27 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36502297661864935
+Train binary acc:  0.8700759373516849
+Train AUC:  0.8524619979201004
+Train AUPRC:  0.5837385628250256
+========== Evaluate Valid set ==========
+Valid loss:  0.35689362341707404
+Valid binary acc:  0.8641943734015345
+Valid precision:  0.5493741307371349
+Valid recall:  0.34863195057369817
+Valid f1:  0.42656587473002167
+Valid AUC:  0.7983315659964382
+Valid AUPRC:  0.4778570798509599
+Valid mcc:  0.3656686912734451
+
+========== Train epoch 28 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3575876922026944
+Train binary acc:  0.8772543901281443
+Train AUC:  0.8849218941303922
+Train AUPRC:  0.6360540114370217
+========== Evaluate Valid set ==========
+Valid loss:  0.34863693334839563
+Valid binary acc:  0.8672634271099744
+Valid precision:  0.5514069264069265
+Valid recall:  0.4496910856134157
+Valid f1:  0.4953816237238698
+Valid AUC:  0.8291466323388862
+Valid AUPRC:  0.5142782566573535
+Valid mcc:  0.42276357941196385
+
+========== Train epoch 29 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3674538638442755
+Train binary acc:  0.8841955386805885
+Train AUC:  0.8888690235324437
+Train AUPRC:  0.6513171219968883
+========== Evaluate Valid set ==========
+Valid loss:  0.3810438853547429
+Valid binary acc:  0.8737212276214834
+Valid precision:  0.6442021803766105
+Valid recall:  0.2868490732568402
+Valid f1:  0.3969465648854962
+Valid AUC:  0.8281802230909757
+Valid AUPRC:  0.5237683118312992
+Valid mcc:  0.3725300423230951
+
+========== Train epoch 30 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3671533135391438
+Train binary acc:  0.8834638506565416
+Train AUC:  0.8870654835976537
+Train AUPRC:  0.6347049271518487
+========== Evaluate Valid set ==========
+Valid loss:  0.3314856717532331
+Valid binary acc:  0.8743606138107417
+Valid precision:  0.6178543461237275
+Valid recall:  0.3481906443071492
+Valid f1:  0.445385266723116
+Valid AUC:  0.8407550263840036
+Valid AUPRC:  0.5274210779569072
+Valid mcc:  0.40066562280068535
+
+========== Train epoch 31 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36291944241123414
+Train binary acc:  0.8688696408796076
+Train AUC:  0.8735681329241647
+Train AUPRC:  0.6209904210770997
+========== Evaluate Valid set ==========
+Valid loss:  0.4161055422190464
+Valid binary acc:  0.868158567774936
+Valid precision:  0.7198275862068966
+Valid recall:  0.147396293027361
+Valid f1:  0.24468864468864468
+Valid AUC:  0.8324756172843173
+Valid AUPRC:  0.5044458083590126
+Valid mcc:  0.2856150010392452
+
+========== Train epoch 32 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3580238116043272
+Train binary acc:  0.8858368928966935
+Train AUC:  0.8902904622437805
+Train AUPRC:  0.6547972514337844
+========== Evaluate Valid set ==========
+Valid loss:  0.34374055672775616
+Valid binary acc:  0.8774296675191816
+Valid precision:  0.6386020651310564
+Valid recall:  0.35481023830538394
+Valid f1:  0.4561702127659575
+Valid AUC:  0.8298837266548853
+Valid AUPRC:  0.529330941658873
+Valid mcc:  0.41502348784344284
+
+========== Train epoch 33 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3646426056581202
+Train binary acc:  0.8873398196487897
+Train AUC:  0.8954148596715069
+Train AUPRC:  0.6621154321246812
+========== Evaluate Valid set ==========
+Valid loss:  0.3257859035423308
+Valid binary acc:  0.8775575447570333
+Valid precision:  0.6493617021276595
+Valid recall:  0.33671668137687555
+Valid f1:  0.44347573379831445
+Valid AUC:  0.849491728955723
+Valid AUPRC:  0.5494827416158964
+Valid mcc:  0.40848587363022865
+
+========== Train epoch 34 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36169548188127687
+Train binary acc:  0.8783420344882139
+Train AUC:  0.8865889104016733
+Train AUPRC:  0.6272458996332722
+========== Evaluate Valid set ==========
+Valid loss:  0.35017907495299977
+Valid binary acc:  0.8747442455242966
+Valid precision:  0.6242914979757085
+Valid recall:  0.34024713150926744
+Valid f1:  0.44044558697514996
+Valid AUC:  0.8502167627482867
+Valid AUPRC:  0.5321332083849654
+Valid mcc:  0.3988016820229868
+
+========== Train epoch 35 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3526794033041641
+Train binary acc:  0.8796274323682961
+Train AUC:  0.8916112941359788
+Train AUPRC:  0.6469016535442352
+========== Evaluate Valid set ==========
+Valid loss:  0.3455107821659608
+Valid binary acc:  0.8732736572890025
+Valid precision:  0.5725229826353422
+Valid recall:  0.4947043248014122
+Valid f1:  0.5307765151515151
+Valid AUC:  0.843111695559787
+Valid AUPRC:  0.5386610959465129
+Valid mcc:  0.4596042650746861
+
+========== Train epoch 36 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3537391397768437
+Train binary acc:  0.8658835627274165
+Train AUC:  0.8934664277225555
+Train AUPRC:  0.6526711071850666
+========== Evaluate Valid set ==========
+Valid loss:  0.34817811959620676
+Valid binary acc:  0.8620843989769821
+Valid precision:  0.5213307240704501
+Valid recall:  0.587819947043248
+Valid f1:  0.5525824517734911
+Valid AUC:  0.8501790962982145
+Valid AUPRC:  0.5516631709030966
+Valid mcc:  0.47259290469317067
+
+========== Train epoch 37 ==========
+========== Evaluate Train set ==========
+Train loss:  0.35228755525243816
+Train binary acc:  0.8908400569530137
+Train AUC:  0.899302448404453
+Train AUPRC:  0.6764011668719128
+========== Evaluate Valid set ==========
+Valid loss:  0.3376752646131949
+Valid binary acc:  0.8797314578005115
+Valid precision:  0.6586974443528442
+Valid recall:  0.352603706972639
+Valid f1:  0.4593273929290025
+Valid AUC:  0.853470134316284
+Valid AUPRC:  0.5545018860840658
+Valid mcc:  0.4232755817108441
+
+========== Train epoch 38 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34590896914031966
+Train binary acc:  0.8746835943679797
+Train AUC:  0.8962704214727097
+Train AUPRC:  0.6622627567068526
+========== Evaluate Valid set ==========
+Valid loss:  0.3351676694371484
+Valid binary acc:  0.8743606138107417
+Valid precision:  0.7415730337078652
+Valid recall:  0.20388349514563106
+Valid f1:  0.31983385254413293
+Valid AUC:  0.852609366014415
+Valid AUPRC:  0.5547638186188635
+Valid mcc:  0.3452836094756647
+
+========== Train epoch 39 ==========
+========== Evaluate Train set ==========
+Train loss:  0.359023066821383
+Train binary acc:  0.8835429520645467
+Train AUC:  0.8918750269347175
+Train AUPRC:  0.6535712784890075
+========== Evaluate Valid set ==========
+Valid loss:  0.38844838681997673
+Valid binary acc:  0.8780051150895141
+Valid precision:  0.6578483245149912
+Valid recall:  0.3292144748455428
+Valid f1:  0.43882352941176467
+Valid AUC:  0.8505925033238209
+Valid AUPRC:  0.5482301268301304
+Valid mcc:  0.40746960507495833
+
+========== Train epoch 40 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3527061471910174
+Train binary acc:  0.8877946527448188
+Train AUC:  0.8997709317088354
+Train AUPRC:  0.672934453304305
+========== Evaluate Valid set ==========
+Valid loss:  0.3505896677573522
+Valid binary acc:  0.8744245524296675
+Valid precision:  0.6498015873015873
+Valid recall:  0.2890556045895852
+Valid f1:  0.400122174709835
+Valid AUC:  0.8303986169631873
+Valid AUPRC:  0.5295056794363936
+Valid mcc:  0.3765080546621136
+
+========== Train epoch 41 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34794353265593303
+Train binary acc:  0.8850063281126404
+Train AUC:  0.8894042203779196
+Train AUPRC:  0.6591515970999611
+========== Evaluate Valid set ==========
+Valid loss:  0.3402493138882247
+Valid binary acc:  0.8746163682864451
+Valid precision:  0.6627534685165422
+Valid recall:  0.2740511915269197
+Valid f1:  0.3877614736184827
+Valid AUC:  0.8494899635986675
+Valid AUPRC:  0.5410413535591023
+Valid mcc:  0.371417615360495
+
+========== Train epoch 42 ==========
+========== Evaluate Train set ==========
+Train loss:  0.35291615131297216
+Train binary acc:  0.8891987027369087
+Train AUC:  0.8973326275927089
+Train AUPRC:  0.6694782845648486
+========== Evaluate Valid set ==========
+Valid loss:  0.3558449194286809
+Valid binary acc:  0.8785805626598465
+Valid precision:  0.6137631742095474
+Valid recall:  0.4368932038834951
+Valid f1:  0.5104408352668213
+Valid AUC:  0.8374521093278036
+Valid AUPRC:  0.5506685692470601
+Valid mcc:  0.45172177073578107
+
+========== Train epoch 43 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3509849334385858
+Train binary acc:  0.8900490428729632
+Train AUC:  0.8891350714776693
+Train AUPRC:  0.6669211859780093
+========== Evaluate Valid set ==========
+Valid loss:  0.3429701845302726
+Valid binary acc:  0.8773017902813299
+Valid precision:  0.6217543859649123
+Valid recall:  0.3909973521624007
+Valid f1:  0.48008669737198595
+Valid AUC:  0.8228101554160956
+Valid AUPRC:  0.5383863234682118
+Valid mcc:  0.42895295179479187
+
+========== Train epoch 44 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34101975092024944
+Train binary acc:  0.8881901597848442
+Train AUC:  0.9002492252277723
+Train AUPRC:  0.6808009389741624
+========== Evaluate Valid set ==========
+Valid loss:  0.32682608338919555
+Valid binary acc:  0.8802429667519182
+Valid precision:  0.616066154754873
+Valid recall:  0.4602824360105914
+Valid f1:  0.5269007325082092
+Valid AUC:  0.8610068890501799
+Valid AUPRC:  0.5709330413126948
+Valid mcc:  0.4663932000361709
+
+========== Train epoch 45 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3387441256208651
+Train binary acc:  0.8754746084480304
+Train AUC:  0.8767106045897166
+Train AUPRC:  0.6237187382475969
+========== Evaluate Valid set ==========
+Valid loss:  0.37286095230868366
+Valid binary acc:  0.8718670076726343
+Valid precision:  0.6605392156862745
+Valid recall:  0.23786407766990292
+Valid f1:  0.34977287475665153
+Valid AUC:  0.8216305009350782
+Valid AUPRC:  0.4967293442206173
+Valid mcc:  0.3437139515624243
+
+========== Train epoch 46 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34671439052517733
+Train binary acc:  0.8802404682803354
+Train AUC:  0.8921227417772499
+Train AUPRC:  0.6391880506618293
+========== Evaluate Valid set ==========
+Valid loss:  0.3423097488103491
+Valid binary acc:  0.8702685421994885
+Valid precision:  0.5622047244094488
+Valid recall:  0.4726390114739629
+Valid f1:  0.5135459122512587
+Valid AUC:  0.8421073228858512
+Valid AUPRC:  0.5236911625688401
+Valid mcc:  0.44154838406883296
+
+========== Train epoch 47 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34386550092986273
+Train binary acc:  0.8861137478247113
+Train AUC:  0.9012892275184259
+Train AUPRC:  0.679225726010367
+========== Evaluate Valid set ==========
+Valid loss:  0.3370982849914016
+Valid binary acc:  0.8781329923273657
+Valid precision:  0.5898203592814372
+Valid recall:  0.5216240070609003
+Valid f1:  0.5536299765807963
+Valid AUC:  0.8516836094747736
+Valid AUPRC:  0.5719283267015534
+Valid mcc:  0.48459452930738134
+
+========== Train epoch 48 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34585256880121445
+Train binary acc:  0.8849470020566366
+Train AUC:  0.8942651911660775
+Train AUPRC:  0.6728704911093728
+========== Evaluate Valid set ==========
+Valid loss:  0.3485178581692956
+Valid binary acc:  0.8731457800511508
+Valid precision:  0.5753205128205128
+Valid recall:  0.47528684907325686
+Valid f1:  0.5205413243112614
+Valid AUC:  0.8377132996786985
+Valid AUPRC:  0.5553470605068314
+Valid mcc:  0.4509224061157659
+
+========== Train epoch 49 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3437796819454698
+Train binary acc:  0.8902467963929758
+Train AUC:  0.8991947095345487
+Train AUPRC:  0.681797933143829
+========== Evaluate Valid set ==========
+Valid loss:  0.35949544269930234
+Valid binary acc:  0.8773657289002558
+Valid precision:  0.6215083798882681
+Valid recall:  0.39276257722859664
+Valid f1:  0.4813412655489454
+Valid AUC:  0.838155958835701
+Valid AUPRC:  0.5416419022098752
+Valid mcc:  0.42988925972246694
+
+========== Train epoch 50 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3405372187940042
+Train binary acc:  0.8875968992248062
+Train AUC:  0.9001364886738893
+Train AUPRC:  0.683626200028172
+========== Evaluate Valid set ==========
+Valid loss:  0.32968292295029666
+Valid binary acc:  0.8778132992327365
+Valid precision:  0.68664563617245
+Valid recall:  0.2881729920564872
+Valid f1:  0.4059682934410942
+Valid AUC:  0.8483095831764311
+Valid AUPRC:  0.5566027200351407
+Valid mcc:  0.3916316638595864
+
+
+Best epoch: 41 45 50 50 47
+Average AUC of 5 fold: 0.8740
+Average AUPR of 5 fold: 0.6134
+
+
+Training a full model using all training data...
+
+
+========== Train epoch 1 ==========
+========== Evaluate Train set ==========
+Train loss:  0.4871698101302107
+Train binary acc:  0.8514227887868535
+Train AUC:  0.7698254050847425
+Train AUPRC:  0.4162225014929748
+
+========== Train epoch 2 ==========
+========== Evaluate Train set ==========
+Train loss:  0.4378794559729313
+Train binary acc:  0.854186805219913
+Train AUC:  0.7988446282305708
+Train AUPRC:  0.4535960527193647
+
+========== Train epoch 3 ==========
+========== Evaluate Train set ==========
+Train loss:  0.4267866536082622
+Train binary acc:  0.8529331802803286
+Train AUC:  0.8027873349500317
+Train AUPRC:  0.46449318262845585
+
+========== Train epoch 4 ==========
+========== Evaluate Train set ==========
+Train loss:  0.4043949629643006
+Train binary acc:  0.8570565490575157
+Train AUC:  0.8061336647354501
+Train AUPRC:  0.4718046377336554
+
+========== Train epoch 5 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3973469838143109
+Train binary acc:  0.8665418076365394
+Train AUC:  0.8378704472659644
+Train AUPRC:  0.5366803703492332
+
+========== Train epoch 6 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3951515112808365
+Train binary acc:  0.8675084581923634
+Train AUC:  0.8411111272844676
+Train AUPRC:  0.5431621153891794
+
+========== Train epoch 7 ==========
+========== Evaluate Train set ==========
+Train loss:  0.39283918022752523
+Train binary acc:  0.8664209763170614
+Train AUC:  0.852868411085411
+Train AUPRC:  0.5557153037816727
+
+========== Train epoch 8 ==========
+========== Evaluate Train set ==========
+Train loss:  0.37501164530208725
+Train binary acc:  0.868263653939101
+Train AUC:  0.8582432745781269
+Train AUPRC:  0.5743657900813751
+
+========== Train epoch 9 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3729278939569782
+Train binary acc:  0.8739276220396327
+Train AUC:  0.8611035733573023
+Train AUPRC:  0.5791668662348819
+
+========== Train epoch 10 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3787216138161585
+Train binary acc:  0.8752567665538907
+Train AUC:  0.8623635185169485
+Train AUPRC:  0.5863040167336133
+
+========== Train epoch 11 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3787442209299453
+Train binary acc:  0.8745921942967617
+Train AUC:  0.8662116085038138
+Train AUPRC:  0.5950096659018348
+
+========== Train epoch 12 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3766421803055766
+Train binary acc:  0.8745921942967617
+Train AUC:  0.8547237167165485
+Train AUPRC:  0.5799565433386271
+
+========== Train epoch 13 ==========
+========== Evaluate Train set ==========
+Train loss:  0.37454425284784
+Train binary acc:  0.8767218463025617
+Train AUC:  0.8639951158056651
+Train AUPRC:  0.597754216369512
+
+========== Train epoch 14 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3828927024886637
+Train binary acc:  0.8596997341710971
+Train AUC:  0.8175176894614159
+Train AUPRC:  0.5066312607583923
+
+========== Train epoch 15 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3748164867123444
+Train binary acc:  0.8700610198163364
+Train AUC:  0.8674165746413076
+Train AUPRC:  0.5862319627349721
+
+========== Train epoch 16 ==========
+========== Evaluate Train set ==========
+Train loss:  0.37423083250840267
+Train binary acc:  0.8746828177863702
+Train AUC:  0.867461644452302
+Train AUPRC:  0.591742681590351
+
+========== Train epoch 17 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3678468422083084
+Train binary acc:  0.8770541324311262
+Train AUC:  0.8669400441832548
+Train AUPRC:  0.6024060073313883
+
+========== Train epoch 18 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36698611169875023
+Train binary acc:  0.878579627839536
+Train AUC:  0.8725474446969567
+Train AUPRC:  0.6070340120247133
+
+========== Train epoch 19 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36557929231199676
+Train binary acc:  0.8727495166747221
+Train AUC:  0.8743405564997749
+Train AUPRC:  0.60677888853382
+
+========== Train epoch 20 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36720146417260885
+Train binary acc:  0.8717979700338327
+Train AUC:  0.8639446848906522
+Train AUPRC:  0.5910607339303575
+
+========== Train epoch 21 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36243667205918334
+Train binary acc:  0.8695021749637506
+Train AUC:  0.8679361437168747
+Train AUPRC:  0.6022036941412984
+
+========== Train epoch 22 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3650137930885404
+Train binary acc:  0.8794254470758821
+Train AUC:  0.8775030295086248
+Train AUPRC:  0.6135196931610389
+
+========== Train epoch 23 ==========
+========== Evaluate Train set ==========
+Train loss:  0.35585739017425183
+Train binary acc:  0.8789119139681005
+Train AUC:  0.8783807128866424
+Train AUPRC:  0.6163344247301403
+
+========== Train epoch 24 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3573047136609069
+Train binary acc:  0.8788363943934268
+Train AUC:  0.8733789829262552
+Train AUPRC:  0.6177227309282597
+
+========== Train epoch 25 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3614978595765051
+Train binary acc:  0.8760119623006283
+Train AUC:  0.8750204833654501
+Train AUPRC:  0.5970441897096256
+
+========== Train epoch 26 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3639482005895255
+Train binary acc:  0.8798785645239247
+Train AUC:  0.8672316009680685
+Train AUPRC:  0.6068968692849375
+
+========== Train epoch 27 ==========
+========== Evaluate Train set ==========
+Train loss:  0.36079332770077055
+Train binary acc:  0.8786098356694055
+Train AUC:  0.8788918801286509
+Train AUPRC:  0.6217030318213959
+
+========== Train epoch 28 ==========
+========== Evaluate Train set ==========
+Train loss:  0.354164572309948
+Train binary acc:  0.8703479942000967
+Train AUC:  0.8757041011850062
+Train AUPRC:  0.6269240041941636
+
+========== Train epoch 29 ==========
+========== Evaluate Train set ==========
+Train loss:  0.35696366110336997
+Train binary acc:  0.8814946834219429
+Train AUC:  0.8770925076437983
+Train AUPRC:  0.6246733215658914
+
+========== Train epoch 30 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3526831241603383
+Train binary acc:  0.8778848477525375
+Train AUC:  0.8804725789642137
+Train AUPRC:  0.6185528361156704
+
+========== Train epoch 31 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3528472608301097
+Train binary acc:  0.8839717254712421
+Train AUC:  0.888592518192844
+Train AUPRC:  0.636490478740221
+
+========== Train epoch 32 ==========
+========== Evaluate Train set ==========
+Train loss:  0.35426407896294565
+Train binary acc:  0.8812681246979217
+Train AUC:  0.8786523759235506
+Train AUPRC:  0.6210389603163698
+
+========== Train epoch 33 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34721512737834526
+Train binary acc:  0.8858144030932817
+Train AUC:  0.8883225616701509
+Train AUPRC:  0.6427768108915928
+
+========== Train epoch 34 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3487678758889258
+Train binary acc:  0.8810717738037699
+Train AUC:  0.8898761580123209
+Train AUPRC:  0.6412401081175021
+
+========== Train epoch 35 ==========
+========== Evaluate Train set ==========
+Train loss:  0.347473457968699
+Train binary acc:  0.8870831319478009
+Train AUC:  0.889627593957019
+Train AUPRC:  0.6524536728541455
+
+========== Train epoch 36 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34176071418705817
+Train binary acc:  0.8811775012083132
+Train AUC:  0.8895863934570484
+Train AUPRC:  0.6570087285375343
+
+========== Train epoch 37 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3474431348641119
+Train binary acc:  0.8844550507491542
+Train AUC:  0.8866458659986647
+Train AUPRC:  0.6395476784835891
+
+========== Train epoch 38 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34431883616897163
+Train binary acc:  0.8888502899951668
+Train AUC:  0.8937617774589376
+Train AUPRC:  0.662320415933867
+
+========== Train epoch 39 ==========
+========== Evaluate Train set ==========
+Train loss:  0.35187123925564534
+Train binary acc:  0.874637506041566
+Train AUC:  0.8874521753503807
+Train AUPRC:  0.6452936915619311
+
+========== Train epoch 40 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3352450882335623
+Train binary acc:  0.8860258579023683
+Train AUC:  0.8902439304406313
+Train AUPRC:  0.6585612723030583
+
+========== Train epoch 41 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3407435955223209
+Train binary acc:  0.8899226679555341
+Train AUC:  0.8914839524147853
+Train AUPRC:  0.6644182409250913
+
+========== Train epoch 42 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34003097610826977
+Train binary acc:  0.8861768970517158
+Train AUC:  0.8945261772111686
+Train AUPRC:  0.6647254650871708
+
+========== Train epoch 43 ==========
+========== Evaluate Train set ==========
+Train loss:  0.33968384111088196
+Train binary acc:  0.883065490575157
+Train AUC:  0.8929977863696743
+Train AUPRC:  0.6605408430016269
+
+========== Train epoch 44 ==========
+========== Evaluate Train set ==========
+Train loss:  0.34371546945885983
+Train binary acc:  0.8844399468342194
+Train AUC:  0.8940502952458338
+Train AUPRC:  0.6681918195384728
+
+========== Train epoch 45 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3472830977536247
+Train binary acc:  0.886524287095215
+Train AUC:  0.8930269520915675
+Train AUPRC:  0.6548045042040431
+
+========== Train epoch 46 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3370127811314103
+Train binary acc:  0.8908289028516191
+Train AUC:  0.8945444908533194
+Train AUPRC:  0.6680445490367558
+
+========== Train epoch 47 ==========
+========== Evaluate Train set ==========
+Train loss:  0.3302917614980729
+Train binary acc:  0.8840774528757854
+Train AUC:  0.8958978942899449
+Train AUPRC:  0.6665603375791981
+
+========== Train epoch 48 ==========
+========== Evaluate Train set ==========
+Train loss:  0.340179278777388
+Train binary acc:  0.8884575882068633
+Train AUC:  0.8924598664220673
+Train AUPRC:  0.6602532066041785
+
+========== Train epoch 49 ==========
+========== Evaluate Train set ==========
+Train loss:  0.33109612588932413
+Train binary acc:  0.8890617448042533
+Train AUC:  0.8979097905659088
+Train AUPRC:  0.6783441913814252
+
+========== Train epoch 50 ==========
+========== Evaluate Train set ==========
+Train loss:  0.33680149781222113
+Train binary acc:  0.8863279362010633
+Train AUC:  0.8979330254799006
+Train AUPRC:  0.6746926016926813
