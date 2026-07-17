@@ -91,7 +91,20 @@ def analysis(y_true, y_pred, best_threshold=None):
     return results
 
 def test(test_dataframe, psepos_path):
-    test_loader = DataLoader(dataset=ProDataset(dataframe=test_dataframe,psepos_path=psepos_path), batch_size=BATCH_SIZE, shuffle=True, num_workers=2, collate_fn=graph_collate)
+    # 初始化收集各种指标的字典
+    all_metrics = {
+        'binary_acc': [],
+        'precision': [],
+        'recall': [],
+        'f1': [],
+        'AUC': [],
+        'AUPRC': [],
+        'mcc': [],
+        'threshold': []
+    }
+
+    test_loader = DataLoader(dataset=ProDataset(dataframe=test_dataframe, psepos_path=psepos_path),
+                             batch_size=BATCH_SIZE, shuffle=True, num_workers=2, collate_fn=graph_collate)
 
     for model_name in sorted(os.listdir(Model_Path)):
         print(model_name)
@@ -101,7 +114,12 @@ def test(test_dataframe, psepos_path):
         model.load_state_dict(torch.load(Model_Path + model_name, map_location='cuda:0',weights_only=True))
 
         epoch_loss_test_avg, test_true, test_pred, pred_dict = evaluate(model, test_loader)
+
         result_test = analysis(test_true, test_pred)
+
+        # 将当前模型的指标追加到列表中
+        for key in all_metrics:
+            all_metrics[key].append(result_test[key])
 
         print("========== Evaluate Test set ==========")
         print("Test loss: ", epoch_loss_test_avg)
@@ -113,6 +131,10 @@ def test(test_dataframe, psepos_path):
         print("Test AUPRC: ", result_test['AUPRC'])
         print("Test mcc: ", result_test['mcc'])
         print("Threshold: ", result_test['threshold'])
+        print()
+
+    # 返回包含所有模型测试指标的字典
+    return all_metrics
 
 def test_one_dataset(dataset, psepos_path):
     IDs, sequences, labels = [], [], []
@@ -123,7 +145,24 @@ def test_one_dataset(dataset, psepos_path):
         labels.append(item[1])
     test_dic = {"ID": IDs, "sequence": sequences, "label": labels}
     test_dataframe = pd.DataFrame(test_dic)
-    test(test_dataframe, psepos_path)
+
+    # 接收返回的 all_metrics
+    all_metrics = test(test_dataframe, psepos_path)
+
+    # 计算平均值
+    average_metrics = {key: np.mean(values[:5]) for key, values in all_metrics.items()}
+
+    # 打印最终的交叉验证平均结果
+    print("========== Cross-Validation Results ==========")
+    print("Average binary acc: ", average_metrics['binary_acc'])
+    print("Average precision: ", average_metrics['precision'])
+    print("Average recall: ", average_metrics['recall'])
+    print("Average f1: ", average_metrics['f1'])
+    print("Average AUC: ", average_metrics['AUC'])
+    print("Average AUPRC: ", average_metrics['AUPRC'])
+    print("Average mcc: ", average_metrics['mcc'])
+    print("Average threshold: ", average_metrics['threshold'])
+    print()
 
 def main():
     with open(Dataset_Path + "Test_60.pkl", "rb") as f:
@@ -150,14 +189,14 @@ def main():
     print("Evaluate EGMPPPIS on Test_60")
     test_one_dataset(Test_60, Test60_psepos_Path)
 
-    # print("Evaluate EGMPPPIS on Test_315-28")
-    # test_one_dataset(Test_315_28, Test315_28_psepos_Path)
-    #
-    # print("Evaluate EGMPPPIS on Btest_31-6")
-    # test_one_dataset(Btest_31_6, Btest31_psepos_Path)
-    #
-    # print("Evaluate EGMPPPIS on UBtest_31-6")
-    # test_one_dataset(UBtest_31_6, UBtest31_28_psepos_Path)
+    print("Evaluate EGMPPPIS on Test_315-28")
+    test_one_dataset(Test_315_28, Test315_28_psepos_Path)
+
+    print("Evaluate EGMPPPIS on Btest_31-6")
+    test_one_dataset(Btest_31_6, Btest31_psepos_Path)
+
+    print("Evaluate EGMPPPIS on UBtest_31-6")
+    test_one_dataset(UBtest_31_6, UBtest31_28_psepos_Path)
 
 if __name__ == "__main__":
     main()
