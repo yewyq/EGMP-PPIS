@@ -34,6 +34,6 @@ The folder `./Dataset/` contains datasets used in our experiments, including all
 Pre-trained models are saved in the `./Model/` directory for quick evaluation.
 
 ## 6 Usage
-The main architecture and ablation variants of the model are defined in EGMPPPIS_model.py.
+The main architecture and ablation variants of the model are defined in EGMPPPIS_model.py.</br>
 Run train.py to train the model from scratch.</br>
 Run test.py to evaluate the trained model on benchmark test sets.
