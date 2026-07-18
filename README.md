@@ -19,7 +19,7 @@ We recommend using a GPU for efficient training and prediction. To run EGMP-PPIS
     (8) scikit-learn
 
 ## 3 Datasets
-The folder ./Dataset/ contains datasets used in our experiments, all PDB files, Test_315-28.pkl, Test_60.pkl, Train_335.pkl, UBtest_31-6.pkl and bound_unbound_mapping31-6.txt. The remaining datasets are sourced from the original GraphPPIS.
+The folder ./Dataset/ contains datasets used in our experiments, including all PDB files, Test_315-28.pkl, Test_60.pkl, Train_335.pkl, UBtest_31-6.pkl, and bound_unbound_mapping31-6.txt. The remaining datasets are sourced from the original GraphPPIS. Large files are managed by Git LFS; please download via git clone and run git lfs install & git lfs pull, or [download Dataset](https://drive.google.com/drive/folders/1KMJjj7DPDJvVE2lF44gmEdGMpRj5sBQM?usp=drive_link) from Google Drive.
 
 ## 4 Features
     Extracted features are placed in the `./Feature/` directory. Detailed descriptions are as follows:
