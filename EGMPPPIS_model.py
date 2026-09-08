@@ -72,9 +72,7 @@ def embedding(sequence_name):
 def load_graph(sequence_name):
     dismap = np.load(Feature_Path + "distance_map_SC/" + sequence_name + ".npy")
     mask = ((dismap >= 0) * (dismap <= MAP_CUTOFF))
-    adj = mask.astype(int)
-    radius_index = np.where(adj == 1)
-    g = dgl.graph((radius_index[0], radius_index[1]))
+
     return adj, g, radius_index
 
 
@@ -106,8 +104,7 @@ class ProDataset(Dataset):
         # 伪坐标：以第一个残基为参考点，使用相对坐标
         pos_raw = self.psepos_dict[protein_id].astype(np.float32)
         reference_pos = pos_raw[0]
-        pos_relative = pos_raw - reference_pos
-        pos_tensor = torch.from_numpy(pos_relative)
+
         g.ndata['pos'] = pos_tensor
 
         if len(radius_index_list[0]) > 0:
@@ -119,7 +116,6 @@ class ProDataset(Dataset):
 
         # 基础特征61维 + PsePos 1 维 = 62维
         base_feat = torch.tensor(embedding(protein_id), dtype=torch.float32)
-        psepos_1d = torch.sqrt(torch.sum(pos_tensor * pos_tensor, dim=1)).unsqueeze(-1) / self.dist
         feat = torch.cat([base_feat, psepos_1d], dim=-1)
 
         return protein_id, seq, label, feat, g, torch.tensor(adj, dtype=torch.float32)
@@ -168,10 +164,7 @@ class EGMP_Layer(nn.Module):
     def message_func(self, edges):
         coord_diff = edges.src['pos'] - edges.dst['pos']
         dist_sq = torch.sum(coord_diff ** 2, dim=-1, keepdim=True)
-        h_cat = torch.cat([edges.src['h'], edges.dst['h'], dist_sq], dim=-1)
 
-        m_ij = self.edge_net(h_cat)
-        attn = self.attn_net(m_ij)
         m_ij = m_ij * attn
 
         if BASE_MODEL_TYPE == 'w/o_CoordUpdate':
@@ -200,7 +193,7 @@ class EGMP_Layer(nn.Module):
             # 全局上下文消融控制
             if BASE_MODEL_TYPE != 'w/o_GlobalCtx':
                 global_context = dgl.mean_nodes(g, 'h')
-                global_context_broadcast = dgl.broadcast_nodes(g, global_context)
+               
                 node_inputs.append(global_context_broadcast)
 
             node_input = torch.cat(node_inputs, dim=-1)
@@ -222,7 +215,7 @@ class EGMPPPIS(nn.Module):
         self.seq_proj = nn.Linear(SEQ_DIM, HIDDEN_DIM)
         self.struct_proj = nn.Linear(STRUCT_DIM, HIDDEN_DIM)
 
-        self.layers = nn.ModuleList([EGMP_Layer(HIDDEN_DIM) for _ in range(nlayers)])
+       
         self.dropout = nn.Dropout(dropout)
 
         # 3. 残差融合消融控制：动态调整分类器输入维度
