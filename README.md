@@ -1,8 +1,8 @@
 # EGMP-PPIS
 ## 1 Description
-    (a) EGMP-PPIS is a protein-protein interaction site predictor based on deep equivariant graph neural networks. This model formulates the PPIS prediction task as a node binary classification task on 3D protein graphs.
-    (b) The core component of EGMP-PPIS is the geometry-aware message-passing layer. During the message-passing process, it not only dynamically generates messages by leveraging the relative spatial distances between residues but also incorporates a global context aggregation mechanism, enabling the model to simultaneously perceive both the local microenvironment and the macroscopic folding topology of the entire protein chain.
-    (c) By introducing a predictive residual fusion module, the model concatenates the original sequence-projected features with the output of a deep graph network. This effectively alleviates the over-smoothing problem inherent in deep GNNs and achieves promising performance on imbalanced PPIS datasets.
+    (a) EGMP-PPIS is a lightweight, single-stream equivariant geometry-aware message passing network for protein-protein interaction site (PPIS) prediction. It integrates evolutionary and structural residue features and formulates PPIS prediction as a residue-level binary node classification task on 3D spatial protein graphs.
+    (b) The core component of EGMP-PPIS is the equivariant geometry-aware message-passing layer. Within a single parallelizable stream, it combines distance-aware message generation, semantic attention, E(n)-equivariant coordinate updates, and linear-complexity global context broadcasting, enabling the model to capture both local 3D geometric microenvironments and global protein topology simultaneously.
+    (c) By introducing a prediction-stage residual fusion mechanism, the model concatenates the initial evolutionary embedding with the final graph representation prior to classification. This preserves complementary sequence information without extra graph propagation overhead and achieves strong performance on imbalanced bound and unbound PPIS benchmarks.
 
 ## 2 Installation
 ### 2.1 System Requirements
